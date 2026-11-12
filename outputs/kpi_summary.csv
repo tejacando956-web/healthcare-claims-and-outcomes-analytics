@@ -1,0 +1,21 @@
+module,kpi,value
+Pipeline,total_rows_loaded,4380.0
+Pipeline,duplicate_claim_ids,0.0
+Pipeline,claims_with_missing_amounts,0.0
+Claims & Revenue Cycle,total_billed_usd,2400676.91
+Claims & Revenue Cycle,total_paid_usd,1694783.3
+Claims & Revenue Cycle,paid_ratio_pct,70.6
+Claims & Revenue Cycle,denial_rate_pct,11.48
+Claims & Revenue Cycle,top_denial_reason_share_pct,31.71
+Cost & Utilization,pmpm_usd,235.39
+Cost & Utilization,avg_cost_per_encounter_usd,686.15
+Cost & Utilization,encounters_per_1000_members,2000.0
+Cost & Utilization,top3_conditions_share_of_paid_pct,59.1
+Patient Outcomes,readmission_proxy_rate_pct,3.75
+Patient Outcomes,inpatient_readmission_rate_pct,25.51
+Patient Outcomes,top10pct_patients_share_of_cost_pct,25.68
+Patient Outcomes,highest_readmission_condition_rate_pct,6.6
+Provider Performance,providers_scored,80.0
+Provider Performance,highest_denial_rate_provider_pct,25.93
+Provider Performance,lowest_denial_rate_provider_min20claims_pct,0.0
+Provider Performance,top_provider_paid_usd,45467.28
