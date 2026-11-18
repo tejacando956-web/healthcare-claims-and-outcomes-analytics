@@ -35,43 +35,35 @@ Most portfolio projects show one chart. A real healthcare analyst job is a **pip
 | 3 — Patient Outcomes | Quality / outcomes reporting | How big are readmissions and high-cost patient concentration? |
 | 4 — Provider Performance | Provider scorecards for network teams | Which providers are outliers, good or bad? |
 
-## Headline KPIs (actual outputs of `analysis.py`)
+## Headline KPIs — the 20 (actual outputs of `analysis.py`)
 | KPI | Value |
 |---|---|
-| Members / providers / claims / encounters | 600 / 80 / 2,500 / 1,200 |
 | Total billed | $2,400,677 |
 | Total paid | $1,694,783 |
 | Paid ratio | 70.6% |
-| Billed on approved claims | $2,122,516 |
-| Billed on denied claims (money at risk) | $278,161 |
-| Paid as share of approved billed | 79.8% |
 | Denial rate | 11.5% |
 | Top denial reason | Prior authorization — 31.7% of denials |
-| PMPM (per member per month) | **$235.39** |
-| Average cost per encounter | $686.15 |
-| Largest payer — Commercial share of paid | 47.3% |
+| Billed on approved claims | $2,122,516 |
+| Billed on denied claims (money at risk) | $278,161 |
 | Highest denial rate, one condition + payer | Heart Failure / Medicaid — 17.6% |
-| Lowest denial rate, one condition + payer | Chronic Kidney Disease / Medicaid — 2.3% |
-| Median cost per visit — inpatient / office visit | $1,442 / $320 |
-| Encounters per 1,000 members | 2,000 |
+| Busiest claim month | Month 9 — 237 claims |
+| PMPM (per member per month) | **$235.39** |
 | Top-3 conditions' share of paid | **59.1%** (Diabetes 23.6%, Heart Failure 18.2%, CKD 17.2%) |
-| Readmission proxy — all encounters / inpatient | 3.8% / **25.5%** |
+| Largest payer — Commercial share of paid | 47.3% |
+| Median cost of a hospital stay | $1,442 |
+| Readmission proxy — all encounters | 3.8% |
+| Readmission proxy — inpatient stays | **25.5%** |
 | Cost share of top 10% of patients | 25.7% |
-| Highest provider denial rate | PR073 (Orthopedics) — 25.9% |
-| Lowest provider denial rate (≥20 claims) | PR058 (Primary Care) — 0.0% |
+| Readmission by condition — highest | Back Pain — 6.6% |
+| Readmission by condition — lowest | COPD — 2.5% |
 | Highest denial rate by specialty | Nephrology — 15.1% (304 claims) |
 | Lowest denial rate by specialty | Cardiology — 7.9% (290 claims) |
-| Readmission by condition — highest / lowest | Back Pain 6.6% / COPD 2.5% |
-| Busiest claim month | Month 9 — 237 claims |
 
 Every KPI above is defined in plain words, with its exact formula, in [KPI_DICTIONARY.md](KPI_DICTIONARY.md).
 
 ## Dashboard
 
 ![Cost by condition](images/cost_by_condition.png)
-![Monthly PMPM trend](images/monthly_pmpm_trend.png)
-![Denial Pareto](images/denial_pareto.png)
-![Provider scorecard scatter](images/provider_scorecard_scatter.png)
 ![Claims money funnel](images/claims_funnel.png)
 *The money funnel: of $2.40M billed, $278K sat in denied claims and $1.69M was actually paid.*
 ![Denial heatmap](images/denial_heatmap.png)
@@ -84,8 +76,6 @@ Every KPI above is defined in plain words, with its exact formula, in [KPI_DICTI
 *Billed versus paid money each month — the band between the two areas is money denied or not paid; the paid share stays near 70% all year.*
 ![Denial rate by specialty](images/denial_by_specialty.png)
 *Denials by doctor type: kidney specialists (Nephrology) lose 15.1% of their claims, cardiology only 7.9% — denial fixes belong in specific specialties' paperwork, not spread evenly.*
-![Monthly claim volume and denial rate](images/monthly_claims_volume.png)
-*Claims per month (bars) with the denial rate (line): the busiest month (month 9, 237 claims) is not the worst denial month — February carries the highest denial rate (14.0%) on below-average volume.*
 ![Readmission rate by condition](images/readmission_by_condition.png)
 *Share of visits that are a return within 30 days, by disease: back-pain patients come back most often (6.6%), COPD patients least (2.5%).*
 ![Patient cost concentration](images/patient_concentration.png)
@@ -131,7 +121,7 @@ How the headline numbers are calculated: Paid ratio = paid ÷ billed · Denial r
 ## Repository structure
 ```
 ├── analysis.py             # runs Modules 0–6, writes all outputs
-├── charts.py               # 14 matplotlib charts -> images/
+├── charts.py               # 10 matplotlib charts -> images/
 ├── KPI_DICTIONARY.md       # every KPI defined in plain words, with its exact formula
 ├── requirements.txt  LICENSE  .gitignore
 ├── data/                   # patients.csv, providers.csv, claims.csv, encounters.csv
@@ -140,10 +130,9 @@ How the headline numbers are calculated: Paid ratio = paid ÷ billed · Denial r
 │                           # denial_by_condition_payer.csv, paid_by_payer.csv, monthly_paid_billed.csv,
 │                           # denial_by_specialty.csv, readmission_by_condition.csv,
 │                           # patient_concentration.csv, monthly_claims_volume.csv, condition_cost_denial.csv
-├── images/                 # cost_by_condition, monthly_pmpm_trend, denial_pareto, provider_scorecard_scatter,
-│                           # claims_funnel, denial_heatmap, payer_mix_donut, encounter_cost_boxplot, monthly_paid_area,
-│                           # denial_by_specialty, readmission_by_condition, patient_concentration,
-│                           # monthly_claims_volume, condition_cost_denial_scatter
+├── images/                 # cost_by_condition, claims_funnel, denial_heatmap, payer_mix_donut,
+│                           # encounter_cost_boxplot, monthly_paid_area, denial_by_specialty,
+│                           # readmission_by_condition, patient_concentration, condition_cost_denial_scatter
 ```
 
 ## How to run

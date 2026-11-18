@@ -4,7 +4,7 @@ Utilization | 3 Patient Outcomes | 4 Provider Performance | 5 Money
 Funnel, Payer Mix & Denial Heatmap | 6 Second Depth Pass (specialty
 denials, readmission by condition, patient concentration, monthly
 volume, condition cost-vs-denial).
-Outputs land in outputs/ (kpi_summary.csv, insights.md,
+Outputs land in outputs/ (kpi_summary.csv — the 20 headline KPIs, insights.md,
 data_quality_report.md, provider_scorecard.csv, cost_by_condition.csv,
 denial_by_condition_payer.csv, paid_by_payer.csv, monthly_paid_billed.csv,
 denial_by_specialty.csv, readmission_by_condition.csv,
@@ -25,9 +25,6 @@ for name, df, key in [("patients", patients, "patient_id"), ("providers", provid
                       ("claims", claims, "claim_id"), ("encounters", encounters, "encounter_id")]:
     dq.append((name, len(df), int(df.isna().sum().sum()), int(df.duplicated(subset=[key]).sum()),
                int((~df["patient_id"].isin(patients.patient_id)).sum()) if "patient_id" in df and name != "patients" else 0))
-kpi("Pipeline", "total_rows_loaded", sum(d[1] for d in dq))
-kpi("Pipeline", "duplicate_claim_ids", claims.claim_id.duplicated().sum())
-kpi("Pipeline", "claims_with_missing_amounts", claims[["billed_amount","paid_amount"]].isna().sum().sum())
 with open("outputs/data_quality_report.md", "w") as f:
     f.write("# Data Quality Report — Module 0 (Pipeline)\n\nSynthetic CMS-style data. Star schema: dim_patient, dim_provider, fact_claims, fact_encounters.\n\n")
     f.write("| Table | Rows | Null cells | Duplicate keys | Orphan patient FKs |\n|---|---:|---:|---:|---:|\n")
@@ -56,8 +53,6 @@ cost_by_cond = (claims.groupby("condition").agg(claims=("claim_id","count"), pai
 cost_by_cond.to_csv("outputs/cost_by_condition.csv")
 top3_share = cost_by_cond.share_pct.iloc[:3].sum()
 kpi("Cost & Utilization", "pmpm_usd", pmpm)
-kpi("Cost & Utilization", "avg_cost_per_encounter_usd", encounters.encounter_cost.mean())
-kpi("Cost & Utilization", "encounters_per_1000_members", 1000 * len(encounters) / len(patients))
 kpi("Cost & Utilization", "top3_conditions_share_of_paid_pct", top3_share)
 
 # ---------- Module 3: patient outcomes ----------
@@ -83,10 +78,6 @@ sc["cost_per_encounter_usd"] = sc.enc_cost / sc.encounters.replace(0, np.nan)
 sc = sc.sort_values("paid", ascending=False)
 sc.to_csv("outputs/provider_scorecard.csv", index=False)
 worst = sc.sort_values("denial_rate_pct", ascending=False).iloc[0]; best = sc[sc.claims >= 20].sort_values("denial_rate_pct").iloc[0]
-kpi("Provider Performance", "providers_scored", len(sc))
-kpi("Provider Performance", "highest_denial_rate_provider_pct", worst.denial_rate_pct)
-kpi("Provider Performance", "lowest_denial_rate_provider_min20claims_pct", best.denial_rate_pct)
-kpi("Provider Performance", "top_provider_paid_usd", sc.paid.iloc[0])
 
 # ---------- Module 5: money funnel, payer mix & denial heatmap ----------
 claims_payer = claims.merge(patients[["patient_id", "payer"]], on="patient_id", how="left")
@@ -94,7 +85,6 @@ approved_billed = claims_payer.loc[claims_payer.status != "Denied", "billed_amou
 denied_billed = claims_payer.loc[claims_payer.status == "Denied", "billed_amount"].sum()
 kpi("Claims & Revenue Cycle", "approved_claims_billed_usd", approved_billed)
 kpi("Claims & Revenue Cycle", "denied_claims_billed_usd", denied_billed)
-kpi("Claims & Revenue Cycle", "paid_share_of_approved_billed_pct", 100 * total_paid / approved_billed)
 
 heat = (claims_payer.groupby(["condition", "payer"])
         .agg(claims=("claim_id", "count"), denied=("status", lambda s: (s == "Denied").sum()))
@@ -104,7 +94,6 @@ heat = heat.sort_values(["condition", "payer"])
 heat.to_csv("outputs/denial_by_condition_payer.csv", index=False)
 hi_cell = heat.loc[heat.denial_rate_pct.idxmax()]; lo_cell = heat.loc[heat.denial_rate_pct.idxmin()]
 kpi("Claims & Revenue Cycle", "highest_denial_condition_payer_pct", hi_cell.denial_rate_pct)
-kpi("Claims & Revenue Cycle", "lowest_denial_condition_payer_pct", lo_cell.denial_rate_pct)
 
 payer_mix = (claims_payer.groupby("payer")
              .agg(patients_with_claims=("patient_id", "nunique"), claims=("claim_id", "count"),
@@ -116,7 +105,6 @@ kpi("Cost & Utilization", "top_payer_paid_share_pct", payer_mix.share_pct.iloc[0
 
 med_by_type = encounters.groupby("encounter_type").encounter_cost.median()
 kpi("Cost & Utilization", "median_encounter_cost_inpatient_usd", med_by_type["Inpatient"])
-kpi("Cost & Utilization", "median_encounter_cost_office_visit_usd", med_by_type["Office Visit"])
 
 monthly_pb = (claims.groupby("claim_month")
               .agg(billed=("billed_amount", "sum"), paid=("paid_amount", "sum")).reset_index())
