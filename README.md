@@ -24,6 +24,28 @@ Tools used: SQL, Python, Power BI, Tableau — the same tools from my 90-day stu
 
 > **Portfolio project — synthetic CMS-style data only. No PHI, no real patients, no employer data.** Built to mirror, end to end, the full job of a Healthcare Data Analyst at a payer / health company such as CVS Health.
 
+## The problem
+A health plan pays thousands of claims every month, and three questions decide whether it makes or loses money: are we paying the right amount, are claims being denied for fixable reasons, and are members coming back to hospital too soon? This project answers those questions end to end — from raw claims to the numbers a manager can act on.
+
+The questions it answers:
+1. How much was billed, how much was paid, and where does the money drop out in between?
+2. How many claims are denied, why, and which disease-and-insurance combinations are denied most?
+3. What does one member cost per month (PMPM), and which diseases drive that cost?
+4. Which insurance type (payer) pays the most, and where does a small change move the most money?
+5. How often do patients return within 30 days — overall, after hospital stays, and by disease?
+6. Which providers and specialties are denial outliers, and which patients drive the most cost?
+
+## Project map — what is inside
+- [x] **Data** — 4 tables (600 members, 80 providers, 2,500 claims, 1,200 visits) + data dictionary below
+- [x] **Data quality** — automated checks on every table before any analysis (results below)
+- [x] **Method** — 7 plain steps from raw tables to dashboard (below)
+- [x] **15 headline KPIs** — each defined in plain words, with its formula, in `KPI_DICTIONARY.md`
+- [x] **10 charts** — money funnel, denial heatmap, concentration curve and more (below)
+- [x] **Interactive dashboard** — `dashboard/dashboard.html` with working filters (payer, condition, months, claim status)
+- [x] **Key findings + recommendations** — numbered, each tied to a KPI or chart (below)
+- [x] **Honest limitations** — synthetic data and the readmission proxy, stated plainly (below)
+- [x] **How to run** — one command sequence (below)
+
 ## Why this project is different
 Most portfolio projects show one chart. A real healthcare analyst job is a **pipeline plus five recurring responsibility areas**, and this repo is structured exactly that way — one data pipeline feeding five analysis modules, each with its own KPIs, SQL, outputs and dashboard page:
 
@@ -35,7 +57,7 @@ Most portfolio projects show one chart. A real healthcare analyst job is a **pip
 | 3 — Patient Outcomes | Quality / outcomes reporting | How big are readmissions and high-cost patient concentration? |
 | 4 — Provider Performance | Provider scorecards for network teams | Which providers are outliers, good or bad? |
 
-## Headline KPIs — the 20 (actual outputs of `analysis.py`)
+## Headline KPIs — the 15 (actual outputs of `analysis.py`)
 | KPI | Value |
 |---|---|
 | Total billed | $2,400,677 |
@@ -43,25 +65,23 @@ Most portfolio projects show one chart. A real healthcare analyst job is a **pip
 | Paid ratio | 70.6% |
 | Denial rate | 11.5% |
 | Top denial reason | Prior authorization — 31.7% of denials |
-| Billed on approved claims | $2,122,516 |
 | Billed on denied claims (money at risk) | $278,161 |
 | Highest denial rate, one condition + payer | Heart Failure / Medicaid — 17.6% |
-| Busiest claim month | Month 9 — 237 claims |
 | PMPM (per member per month) | **$235.39** |
 | Top-3 conditions' share of paid | **59.1%** (Diabetes 23.6%, Heart Failure 18.2%, CKD 17.2%) |
 | Largest payer — Commercial share of paid | 47.3% |
-| Median cost of a hospital stay | $1,442 |
 | Readmission proxy — all encounters | 3.8% |
 | Readmission proxy — inpatient stays | **25.5%** |
 | Cost share of top 10% of patients | 25.7% |
 | Readmission by condition — highest | Back Pain — 6.6% |
-| Readmission by condition — lowest | COPD — 2.5% |
 | Highest denial rate by specialty | Nephrology — 15.1% (304 claims) |
-| Lowest denial rate by specialty | Cardiology — 7.9% (290 claims) |
 
 Every KPI above is defined in plain words, with its exact formula, in [KPI_DICTIONARY.md](KPI_DICTIONARY.md).
 
 ## Dashboard
+Open [`dashboard/dashboard.html`](dashboard/dashboard.html) — a fully interactive dashboard in one file (works offline, no internet needed). It has **working filters**: payer multi-select chips (Commercial / Medicare / Medicaid), a condition dropdown, a claim-month range, and a claim-status toggle (All / Approved / Denied). Every KPI card, chart and table recomputes from the filtered claims and visits, using the same formulas as `analysis.py` — with no filters on, it shows exactly the published 15 KPIs above.
+
+The 10 charts from `charts.py`:
 
 ![Cost by condition](images/cost_by_condition.png)
 ![Claims money funnel](images/claims_funnel.png)
@@ -83,6 +103,14 @@ Every KPI above is defined in plain words, with its exact formula, in [KPI_DICTI
 ![Condition cost versus denial scatter](images/condition_cost_denial_scatter.png)
 *Each bubble is one disease (bubble size = number of claims): the most expensive disease per claim (kidney disease, $1,233) is not the most denied — asthma is denied most (14.2%) while paying only $405 per claim.*
 
+## Key findings
+1. **The plan pays about 71 cents of every billed dollar** — $1,694,783 paid of $2,400,677 billed (paid ratio 70.6%; claims funnel chart).
+2. **Denials are mostly paperwork**: 11.48% of claims are denied, and prior authorization alone is 31.71% of all denials (KPI: top denial reason).
+3. **$278,161 of billed money is stuck in denied claims** — the money at risk if denials are not fixed and appealed (KPI: billed on denied claims).
+4. **The worst denial combination is Heart Failure + Medicaid at 17.65%**, while the same payer is the lowest for kidney disease (2.27%) — denials depend on the combination, not the payer alone (denial heatmap chart).
+5. **Three chronic diseases are 59.1% of all paid money** on about 41% of claims — cost is a care-management problem, not a pricing problem (cost by condition chart).
+6. **One in four hospital stays is followed by a return within 30 days** (25.51%), and the top 10% of patients drive 25.68% of cost — the overlap of those two groups is the care-management target.
+
 ## Key insights (per module)
 - **Module 0:** All 4,380 loaded rows pass structural checks — zero duplicate keys, zero orphan foreign keys, denied ⇒ paid = 0, paid ≤ billed.
 - **Module 1:** Denials are a Pareto problem: Prior authorization (31.7%) + Coding error (25.8%) = 57.5% of all denials. Fixing front-end authorization and coding workflows attacks most of the 11.5% denial rate.
@@ -93,21 +121,32 @@ Every KPI above is defined in plain words, with its exact formula, in [KPI_DICTI
 - **Module 5:** Denials depend on the combination, not just the disease: heart-failure claims for Medicaid members were denied 17.6% of the time while kidney-disease claims for the same payer were denied only 2.3% — so denial fixes should target specific condition-and-payer pairs. And because Commercial members drive 47.3% of paid dollars, a small change there moves total cost more than a big change in Medicaid (21.8%).
 - **Module 6:** Denials cluster by specialty as well as by reason: Nephrology loses 15.1% of its claims while Cardiology loses 7.9%, so documentation and authorization coaching should be specialty-specific. Readmission risk is just as uneven by condition (Back Pain 6.6% vs COPD 2.5%), the concentration curve confirms the top 59 patients (10% of those with claims) drive 25.7% of paid dollars, and volume is not the denial driver — the busiest month (month 9, 237 claims) has an ordinary denial rate while February's smaller volume carries the highest (14.0%).
 
-## Business questions this project answers
-- **Revenue cycle:** What is our paid ratio, and which denial reasons — by count and by billed dollars at risk — should the denial-management team attack first?
-- **Finance / actuarial support:** What is PMPM this month, is it trending up, and how much of it is chronic-condition cost versus everything else?
-- **Utilization management:** Are members using the ER and inpatient settings at rates (per 1,000 members) that suggest access or care-management problems?
-- **Quality / outcomes:** How large is the 30-day readmission problem, for which conditions, and which patients — the high-cost decile — should care management enrol first?
-- **Network / provider relations:** Which providers are denial or cost outliers once volume is accounted for, and which high performers' workflows should be studied and replicated?
+## Recommendations
+1. **Fix prior authorization first, starting with Heart Failure × Medicaid** — the worst denial combination (17.65%) and the #1 denial reason (31.71% of denials) meet there: pre-check authorisations for heart-failure claims before treatment, not after denial.
+2. **Attack the top two denial reasons together** — prior authorization + coding errors are 57.5% of all denials, and both are front-office workflow fixes, not medical decisions.
+3. **Coach by specialty, not plan-wide** — Nephrology loses 15.13% of its claims while Cardiology loses 7.93%; authorisation and coding coaching should target the high-denial specialties.
+4. **Enrol the top-decile patients in care management** — 59 patients drive 25.68% of all cost; start where that group overlaps with the hospital-stay readmission group (25.51%).
+5. **Watch Commercial first for cost moves** — it is 47.26% of paid dollars, so a small change there moves the total more than a big change in Medicaid (21.84%).
+
+## Limitations (honest)
+- **Synthetic data**: computer-made (seed 42) to mirror real claims work — no real patients, no PHI, no employer data. The findings demonstrate the method, not facts about any real health plan.
+- **Readmission is a proxy**: the 30-day return flag is pre-computed in the generated data. In production it would be built by linking each patient's visits in date order from a discharge, with planned returns handled by a stated rule.
+- **Simple enrollment**: every member is enrolled for exactly 12 months; real member-months must handle mid-year joins and leaves, or PMPM is wrong.
+- **No risk adjustment**: provider and specialty comparisons do not adjust for how sick each provider's patients are.
+- **Some groups are small**: a few heatmap cells rest on about 50 claims, and readmission by condition on 3–11 return visits per disease — so those rates are always quoted with their counts.
 
 ## Data design (why the synthetic data is shaped this way)
 The generator (seed 42) weights conditions by realistic prevalence and cost: Heart Failure and Chronic Kidney Disease carry cost multipliers of 2.2× and 2.4× against a Hypertension baseline of 0.8×, which is what produces the 59.1% top-3 concentration the analysis then "discovers". Provider behaviour is also planted, not random: a small number of providers bill at 1.4–1.55× peer levels with elevated denial propensity, and one efficient provider bills at 0.62× with a 4% denial propensity — Module 4's scorecard has to find them from the data alone, the same way a real scorecard must. Readmission probability is encounter-type- and condition-dependent (22% base for inpatient stays, uplifted for Heart Failure, COPD and CKD), mirroring the clinical pattern that readmission risk concentrates in chronic, recently-discharged patients. Denial reasons follow a front-end-heavy distribution (prior authorization and coding errors first), consistent with published revenue-cycle benchmarks where most denials are administrative rather than clinical.
 
-## Data files (all in `data/`)
-- `patients.csv` — 600 members: age, gender, payer (insurance type), months enrolled, number of chronic conditions
-- `providers.csv` — 80 providers (doctors/clinics): specialty and region
-- `claims.csv` — 2,500 insurance claims: amount billed, amount paid (0 when denied), paid/denied status, denial reason
-- `encounters.csv` — 1,200 hospital and clinic visits: visit type, cost, and a flag for "came back within 30 days"
+## Data dictionary (all tables in `data/`)
+| Table | Rows | What it is | Key columns |
+|---|---:|---|---|
+| patients.csv | 600 | One row per member | `patient_id` (key), payer, enrollment_months, chronic_condition_count |
+| providers.csv | 80 | One row per provider | `provider_id` (key), specialty, region |
+| claims.csv | 2,500 | One row per claim (bill) | `claim_id` (key), patient_id, provider_id, claim_month, condition, billed_amount, paid_amount, status, denial_reason |
+| encounters.csv | 1,200 | One row per visit | `encounter_id` (key), patient_id, encounter_month, encounter_type, condition, encounter_cost, readmission_30d_flag |
+
+Claims and visits carry no payer or specialty of their own — they link to patients (for payer) and providers (for specialty). Those two joins are where most answers come from.
 
 How the headline numbers are calculated: Paid ratio = paid ÷ billed · Denial rate = denied claims ÷ all claims · PMPM = total paid ÷ member-months · Readmission rate = share of visits flagged as a return within 30 days.
 
@@ -117,6 +156,19 @@ How the headline numbers are calculated: Paid ratio = paid ÷ billed · Denial r
 - **Why synthetic:** real Bank of America, CVS, or Best Buy data can never be published. The synthetic data is shaped the way real claims work — denial reasons, costs by condition, and patients returning within 30 days — so the analysis and dashboards are real, even though the rows are made up.
 - **No outside dataset was used**, so no outside credit is owed. The KPI definitions (denial rate, cost per member per month, readmission rate) are stated under "Data files" above.
 - **Tools:** SQL, Python, Power BI, Tableau.
+
+## Data quality — checks run before any analysis
+Module 0 of `analysis.py` checks all 4 tables first: unique IDs, no missing money values, every claim's patient and provider actually exists, every denied claim has paid = $0, and no claim is paid more than it was billed.
+**Result: all checks pass** — 4,380 rows, 0 duplicate keys, 0 missing amounts, 0 broken links.
+
+## Method — how the analysis was done
+1. **Load and check** the 4 tables (the Module 0 data-quality checks above).
+2. **Join** claims and visits to patients (for payer) and providers (for specialty).
+3. **Follow the money**: billed vs paid, the money funnel, and denials grouped by reason, biggest first.
+4. **Cost**: paid ÷ member-months = PMPM; paid money grouped by disease and by payer.
+5. **Outcomes**: readmission rates overall, for hospital stays and by disease; patient cost concentration (the top 10% share).
+6. **Providers**: one scorecard row per provider, and denial rates by specialty — always with claim counts next to the rates.
+7. **Present**: 15 KPIs, 10 charts and the interactive dashboard — every number reproducible by `analysis.py`.
 
 ## Repository structure
 ```
@@ -133,6 +185,7 @@ How the headline numbers are calculated: Paid ratio = paid ÷ billed · Denial r
 ├── images/                 # cost_by_condition, claims_funnel, denial_heatmap, payer_mix_donut,
 │                           # encounter_cost_boxplot, monthly_paid_area, denial_by_specialty,
 │                           # readmission_by_condition, patient_concentration, condition_cost_denial_scatter
+├── dashboard/              # dashboard.html — interactive dashboard with working filters
 ```
 
 ## How to run

@@ -10,12 +10,7 @@ Patient Outcomes,readmission_proxy_rate_pct,3.75
 Patient Outcomes,inpatient_readmission_rate_pct,25.51
 Patient Outcomes,top10pct_patients_share_of_cost_pct,25.68
 Patient Outcomes,highest_readmission_condition_rate_pct,6.6
-Claims & Revenue Cycle,approved_claims_billed_usd,2122515.68
 Claims & Revenue Cycle,denied_claims_billed_usd,278161.23
 Claims & Revenue Cycle,highest_denial_condition_payer_pct,17.65
 Cost & Utilization,top_payer_paid_share_pct,47.26
-Cost & Utilization,median_encounter_cost_inpatient_usd,1441.97
 Provider Performance,highest_denial_rate_specialty_pct,15.13
-Provider Performance,lowest_denial_rate_specialty_pct,7.93
-Patient Outcomes,lowest_readmission_condition_rate_pct,2.48
-Claims & Revenue Cycle,peak_month_claim_volume,237.0

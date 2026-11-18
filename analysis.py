@@ -4,7 +4,7 @@ Utilization | 3 Patient Outcomes | 4 Provider Performance | 5 Money
 Funnel, Payer Mix & Denial Heatmap | 6 Second Depth Pass (specialty
 denials, readmission by condition, patient concentration, monthly
 volume, condition cost-vs-denial).
-Outputs land in outputs/ (kpi_summary.csv — the 20 headline KPIs, insights.md,
+Outputs land in outputs/ (kpi_summary.csv — the 15 headline KPIs, insights.md,
 data_quality_report.md, provider_scorecard.csv, cost_by_condition.csv,
 denial_by_condition_payer.csv, paid_by_payer.csv, monthly_paid_billed.csv,
 denial_by_specialty.csv, readmission_by_condition.csv,
@@ -83,7 +83,6 @@ worst = sc.sort_values("denial_rate_pct", ascending=False).iloc[0]; best = sc[sc
 claims_payer = claims.merge(patients[["patient_id", "payer"]], on="patient_id", how="left")
 approved_billed = claims_payer.loc[claims_payer.status != "Denied", "billed_amount"].sum()
 denied_billed = claims_payer.loc[claims_payer.status == "Denied", "billed_amount"].sum()
-kpi("Claims & Revenue Cycle", "approved_claims_billed_usd", approved_billed)
 kpi("Claims & Revenue Cycle", "denied_claims_billed_usd", denied_billed)
 
 heat = (claims_payer.groupby(["condition", "payer"])
@@ -104,7 +103,6 @@ payer_mix.to_csv("outputs/paid_by_payer.csv")
 kpi("Cost & Utilization", "top_payer_paid_share_pct", payer_mix.share_pct.iloc[0])
 
 med_by_type = encounters.groupby("encounter_type").encounter_cost.median()
-kpi("Cost & Utilization", "median_encounter_cost_inpatient_usd", med_by_type["Inpatient"])
 
 monthly_pb = (claims.groupby("claim_month")
               .agg(billed=("billed_amount", "sum"), paid=("paid_amount", "sum")).reset_index())
@@ -122,7 +120,6 @@ spec["denial_rate_pct"] = 100 * spec.denied / spec.claims
 spec = spec.sort_values("denial_rate_pct", ascending=False)
 spec.to_csv("outputs/denial_by_specialty.csv", index=False)
 kpi("Provider Performance", "highest_denial_rate_specialty_pct", spec.denial_rate_pct.iloc[0])
-kpi("Provider Performance", "lowest_denial_rate_specialty_pct", spec.denial_rate_pct.iloc[-1])
 
 # Readmission rate by condition (same 30-day flag definition as Module 3)
 readm_cond = (encounters.groupby("condition")
@@ -131,7 +128,6 @@ readm_cond = (encounters.groupby("condition")
 readm_cond["readmission_rate_pct"] = 100 * readm_cond.readmissions / readm_cond.encounters
 readm_cond = readm_cond.sort_values("readmission_rate_pct", ascending=False)
 readm_cond.to_csv("outputs/readmission_by_condition.csv", index=False)
-kpi("Patient Outcomes", "lowest_readmission_condition_rate_pct", readm_cond.readmission_rate_pct.iloc[-1])
 
 # Patient cost concentration curve (patients with claims, ranked by total paid;
 # same top-decile cut as Module 3 so the 10% point reproduces its KPI)
@@ -151,7 +147,6 @@ monthly_vol = (claims.groupby("claim_month")
 monthly_vol["denial_rate_pct"] = 100 * monthly_vol.denied / monthly_vol.claims
 monthly_vol.to_csv("outputs/monthly_claims_volume.csv", index=False)
 peak_month = monthly_vol.loc[monthly_vol.claims.idxmax()]
-kpi("Claims & Revenue Cycle", "peak_month_claim_volume", peak_month.claims)
 
 # Condition cost-vs-denial summary (average paid per claim, denial rate, volume)
 cond_cd = (claims.groupby("condition")
