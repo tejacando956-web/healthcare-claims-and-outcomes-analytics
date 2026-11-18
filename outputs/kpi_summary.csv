@@ -19,3 +19,15 @@ Provider Performance,providers_scored,80.0
 Provider Performance,highest_denial_rate_provider_pct,25.93
 Provider Performance,lowest_denial_rate_provider_min20claims_pct,0.0
 Provider Performance,top_provider_paid_usd,45467.28
+Claims & Revenue Cycle,approved_claims_billed_usd,2122515.68
+Claims & Revenue Cycle,denied_claims_billed_usd,278161.23
+Claims & Revenue Cycle,paid_share_of_approved_billed_pct,79.85
+Claims & Revenue Cycle,highest_denial_condition_payer_pct,17.65
+Claims & Revenue Cycle,lowest_denial_condition_payer_pct,2.27
+Cost & Utilization,top_payer_paid_share_pct,47.26
+Cost & Utilization,median_encounter_cost_inpatient_usd,1441.97
+Cost & Utilization,median_encounter_cost_office_visit_usd,319.91
+Provider Performance,highest_denial_rate_specialty_pct,15.13
+Provider Performance,lowest_denial_rate_specialty_pct,7.93
+Patient Outcomes,lowest_readmission_condition_rate_pct,2.48
+Claims & Revenue Cycle,peak_month_claim_volume,237.0
