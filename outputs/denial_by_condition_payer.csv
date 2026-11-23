@@ -1,0 +1,25 @@
+condition,payer,claims,denied,denial_rate_pct
+Asthma,Commercial,109,14,12.844036697247706
+Asthma,Medicaid,50,6,12.0
+Asthma,Medicare,81,14,17.28395061728395
+Back Pain,Commercial,103,13,12.62135922330097
+Back Pain,Medicaid,42,4,9.523809523809524
+Back Pain,Medicare,51,7,13.72549019607843
+COPD,Commercial,106,6,5.660377358490566
+COPD,Medicaid,70,7,10.0
+COPD,Medicare,100,12,12.0
+Chronic Kidney Disease,Commercial,125,13,10.4
+Chronic Kidney Disease,Medicaid,44,1,2.272727272727273
+Chronic Kidney Disease,Medicare,68,9,13.235294117647058
+Depression,Commercial,98,5,5.1020408163265305
+Depression,Medicaid,41,2,4.878048780487805
+Depression,Medicare,81,14,17.28395061728395
+Diabetes,Commercial,253,24,9.486166007905139
+Diabetes,Medicaid,118,18,15.254237288135593
+Diabetes,Medicare,139,11,7.913669064748201
+Heart Failure,Commercial,127,12,9.448818897637794
+Heart Failure,Medicaid,51,9,17.647058823529413
+Heart Failure,Medicare,88,12,13.636363636363637
+Hypertension,Commercial,244,32,13.114754098360656
+Hypertension,Medicaid,118,18,15.254237288135593
+Hypertension,Medicare,193,24,12.435233160621761

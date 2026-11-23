@@ -1,0 +1,16 @@
+module,kpi,value
+Claims & Revenue Cycle,total_billed_usd,2400676.91
+Claims & Revenue Cycle,total_paid_usd,1694783.3
+Claims & Revenue Cycle,paid_ratio_pct,70.6
+Claims & Revenue Cycle,denial_rate_pct,11.48
+Claims & Revenue Cycle,top_denial_reason_share_pct,31.71
+Cost & Utilization,pmpm_usd,235.39
+Cost & Utilization,top3_conditions_share_of_paid_pct,59.1
+Patient Outcomes,readmission_proxy_rate_pct,3.75
+Patient Outcomes,inpatient_readmission_rate_pct,25.51
+Patient Outcomes,top10pct_patients_share_of_cost_pct,25.68
+Patient Outcomes,highest_readmission_condition_rate_pct,6.6
+Claims & Revenue Cycle,denied_claims_billed_usd,278161.23
+Claims & Revenue Cycle,highest_denial_condition_payer_pct,17.65
+Cost & Utilization,top_payer_paid_share_pct,47.26
+Provider Performance,highest_denial_rate_specialty_pct,15.13
