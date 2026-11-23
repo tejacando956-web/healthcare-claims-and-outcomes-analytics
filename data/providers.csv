@@ -1,0 +1,81 @@
+provider_id,specialty,region
+PR001,Internal Medicine,Midwest
+PR002,Internal Medicine,West
+PR003,Endocrinology,Northeast
+PR004,Cardiology,Midwest
+PR005,Endocrinology,Northeast
+PR006,Family Medicine,West
+PR007,Orthopedics,South
+PR008,Orthopedics,West
+PR009,Cardiology,West
+PR010,Nephrology,Midwest
+PR011,Cardiology,Northeast
+PR012,Internal Medicine,West
+PR013,Pulmonology,Midwest
+PR014,Internal Medicine,Northeast
+PR015,Internal Medicine,West
+PR016,Orthopedics,West
+PR017,Pulmonology,Midwest
+PR018,Endocrinology,West
+PR019,Nephrology,Northeast
+PR020,Cardiology,Northeast
+PR021,Primary Care,Midwest
+PR022,Nephrology,South
+PR023,Family Medicine,Northeast
+PR024,Nephrology,Northeast
+PR025,Family Medicine,South
+PR026,Cardiology,West
+PR027,Pulmonology,South
+PR028,Nephrology,West
+PR029,Endocrinology,West
+PR030,Primary Care,South
+PR031,Primary Care,South
+PR032,Orthopedics,West
+PR033,Nephrology,Midwest
+PR034,Endocrinology,Northeast
+PR035,Endocrinology,West
+PR036,Primary Care,Midwest
+PR037,Orthopedics,West
+PR038,Primary Care,Midwest
+PR039,Family Medicine,West
+PR040,Cardiology,Northeast
+PR041,Endocrinology,South
+PR042,Endocrinology,Midwest
+PR043,Family Medicine,Midwest
+PR044,Primary Care,Midwest
+PR045,Endocrinology,West
+PR046,Endocrinology,Midwest
+PR047,Endocrinology,West
+PR048,Cardiology,Midwest
+PR049,Orthopedics,Northeast
+PR050,Pulmonology,West
+PR051,Pulmonology,Northeast
+PR052,Pulmonology,Midwest
+PR053,Orthopedics,West
+PR054,Endocrinology,West
+PR055,Endocrinology,West
+PR056,Endocrinology,Midwest
+PR057,Endocrinology,West
+PR058,Primary Care,Midwest
+PR059,Nephrology,South
+PR060,Primary Care,South
+PR061,Cardiology,Northeast
+PR062,Cardiology,Midwest
+PR063,Endocrinology,Midwest
+PR064,Family Medicine,Midwest
+PR065,Nephrology,Midwest
+PR066,Orthopedics,South
+PR067,Endocrinology,Northeast
+PR068,Orthopedics,Northeast
+PR069,Primary Care,West
+PR070,Nephrology,Midwest
+PR071,Family Medicine,South
+PR072,Nephrology,South
+PR073,Orthopedics,South
+PR074,Endocrinology,Midwest
+PR075,Primary Care,Midwest
+PR076,Family Medicine,West
+PR077,Primary Care,West
+PR078,Family Medicine,Midwest
+PR079,Internal Medicine,South
+PR080,Family Medicine,West

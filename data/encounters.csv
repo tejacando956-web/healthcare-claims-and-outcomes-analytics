@@ -1,0 +1,1201 @@
+encounter_id,patient_id,provider_id,encounter_month,encounter_type,condition,encounter_cost,readmission_30d_flag
+E00001,P0501,PR024,7,Office Visit,Back Pain,361.96,0
+E00002,P0417,PR064,7,Emergency,Hypertension,76.84,0
+E00003,P0132,PR067,4,Emergency,Depression,167.65,0
+E00004,P0128,PR005,7,Emergency,Depression,375.2,0
+E00005,P0575,PR044,8,Outpatient,Depression,254.99,0
+E00006,P0153,PR063,2,Office Visit,Asthma,234.32,0
+E00007,P0020,PR013,12,Emergency,Hypertension,1541.85,0
+E00008,P0019,PR052,3,Outpatient,Depression,664.41,0
+E00009,P0137,PR038,5,Outpatient,Heart Failure,344.12,0
+E00010,P0377,PR041,1,Outpatient,Asthma,881.98,0
+E00011,P0274,PR048,8,Office Visit,Hypertension,885.91,0
+E00012,P0440,PR070,8,Office Visit,Diabetes,367.36,0
+E00013,P0140,PR007,2,Outpatient,Hypertension,224.34,0
+E00014,P0139,PR017,4,Office Visit,COPD,415.48,0
+E00015,P0243,PR028,10,Emergency,Hypertension,206.62,0
+E00016,P0476,PR065,9,Emergency,Depression,195.74,0
+E00017,P0302,PR048,4,Emergency,Diabetes,1864.83,0
+E00018,P0458,PR016,8,Emergency,Diabetes,920.92,0
+E00019,P0057,PR002,9,Office Visit,Hypertension,138.87,0
+E00020,P0246,PR080,5,Emergency,Diabetes,309.41,0
+E00021,P0263,PR012,3,Outpatient,Hypertension,117.96,0
+E00022,P0041,PR003,1,Emergency,Chronic Kidney Disease,910.86,0
+E00023,P0189,PR033,12,Emergency,Back Pain,718.67,0
+E00024,P0169,PR045,4,Office Visit,Hypertension,108.72,0
+E00025,P0274,PR021,10,Office Visit,Hypertension,445.06,0
+E00026,P0100,PR014,4,Outpatient,Asthma,284.92,0
+E00027,P0162,PR007,9,Outpatient,Hypertension,242.53,0
+E00028,P0576,PR033,4,Outpatient,Chronic Kidney Disease,1474.55,0
+E00029,P0086,PR077,8,Outpatient,Heart Failure,1168.11,0
+E00030,P0491,PR012,12,Outpatient,Depression,61.54,0
+E00031,P0326,PR046,10,Outpatient,Diabetes,170.42,0
+E00032,P0048,PR016,2,Emergency,Back Pain,288.08,0
+E00033,P0241,PR054,7,Office Visit,Back Pain,287.62,0
+E00034,P0309,PR005,4,Emergency,Diabetes,1933.58,0
+E00035,P0167,PR017,3,Office Visit,COPD,455.8,0
+E00036,P0161,PR001,10,Outpatient,Hypertension,845.4,0
+E00037,P0428,PR052,12,Outpatient,Hypertension,122.92,0
+E00038,P0020,PR058,12,Emergency,Back Pain,225.16,0
+E00039,P0557,PR014,11,Outpatient,Diabetes,317.64,0
+E00040,P0194,PR037,6,Office Visit,Hypertension,112.51,0
+E00041,P0229,PR024,7,Outpatient,Diabetes,1025.55,0
+E00042,P0077,PR004,7,Outpatient,Heart Failure,64.88,0
+E00043,P0529,PR003,9,Outpatient,Depression,126.53,0
+E00044,P0134,PR076,1,Office Visit,Heart Failure,1490.73,0
+E00045,P0483,PR052,10,Outpatient,Chronic Kidney Disease,505.53,0
+E00046,P0196,PR054,10,Emergency,Diabetes,1531.16,0
+E00047,P0020,PR024,12,Outpatient,Chronic Kidney Disease,3765.43,0
+E00048,P0246,PR022,8,Outpatient,Hypertension,230.71,0
+E00049,P0314,PR064,6,Outpatient,COPD,1102.3,0
+E00050,P0282,PR036,6,Inpatient,Heart Failure,17306.75,0
+E00051,P0593,PR009,8,Office Visit,Back Pain,298.43,0
+E00052,P0313,PR040,4,Office Visit,Asthma,234.2,0
+E00053,P0468,PR042,10,Office Visit,Chronic Kidney Disease,1336.01,0
+E00054,P0223,PR046,6,Emergency,COPD,1785.37,0
+E00055,P0087,PR043,4,Outpatient,Diabetes,393.24,0
+E00056,P0300,PR069,9,Emergency,Heart Failure,646.38,0
+E00057,P0336,PR020,5,Emergency,Chronic Kidney Disease,4102.65,0
+E00058,P0251,PR048,1,Outpatient,Chronic Kidney Disease,522.68,0
+E00059,P0460,PR072,7,Outpatient,Heart Failure,1546.02,0
+E00060,P0579,PR079,7,Office Visit,Hypertension,266.97,0
+E00061,P0049,PR078,4,Outpatient,Hypertension,933.02,0
+E00062,P0041,PR059,1,Outpatient,Diabetes,205.66,0
+E00063,P0165,PR009,6,Outpatient,Chronic Kidney Disease,328.55,0
+E00064,P0352,PR080,10,Outpatient,Back Pain,428.57,0
+E00065,P0026,PR003,10,Office Visit,COPD,175.17,0
+E00066,P0117,PR045,3,Office Visit,Chronic Kidney Disease,712.49,0
+E00067,P0246,PR036,6,Office Visit,Chronic Kidney Disease,2239.92,0
+E00068,P0226,PR055,11,Office Visit,Diabetes,97.28,0
+E00069,P0508,PR063,5,Outpatient,Diabetes,559.57,0
+E00070,P0328,PR060,6,Office Visit,Hypertension,570.35,0
+E00071,P0524,PR019,9,Emergency,Back Pain,339.05,0
+E00072,P0456,PR061,6,Outpatient,Diabetes,193.21,0
+E00073,P0249,PR061,11,Office Visit,Heart Failure,482.21,0
+E00074,P0587,PR002,5,Emergency,Hypertension,176.98,0
+E00075,P0507,PR051,6,Office Visit,Chronic Kidney Disease,685.94,0
+E00076,P0297,PR011,7,Outpatient,Hypertension,173.38,0
+E00077,P0511,PR045,9,Outpatient,Back Pain,143.49,0
+E00078,P0155,PR019,5,Office Visit,Hypertension,314.12,0
+E00079,P0125,PR029,4,Office Visit,Back Pain,765.21,0
+E00080,P0475,PR022,5,Emergency,Heart Failure,1237.34,0
+E00081,P0474,PR069,3,Office Visit,Hypertension,633.84,0
+E00082,P0133,PR073,3,Outpatient,Asthma,860.66,0
+E00083,P0453,PR064,10,Emergency,Heart Failure,595.35,0
+E00084,P0305,PR058,5,Office Visit,Diabetes,505.4,0
+E00085,P0336,PR030,4,Inpatient,Chronic Kidney Disease,1940.29,0
+E00086,P0509,PR012,10,Emergency,Heart Failure,290.83,0
+E00087,P0097,PR046,10,Office Visit,Heart Failure,790.82,0
+E00088,P0243,PR035,3,Office Visit,Asthma,104.89,0
+E00089,P0174,PR023,4,Office Visit,Chronic Kidney Disease,956.15,0
+E00090,P0335,PR020,10,Outpatient,Hypertension,62.31,0
+E00091,P0095,PR013,4,Office Visit,Hypertension,248.06,0
+E00092,P0072,PR067,11,Outpatient,Hypertension,61.58,0
+E00093,P0418,PR026,8,Outpatient,Heart Failure,1019.99,1
+E00094,P0034,PR074,8,Office Visit,Hypertension,157.93,0
+E00095,P0251,PR054,7,Outpatient,Diabetes,274.14,0
+E00096,P0592,PR014,1,Emergency,Asthma,958.96,0
+E00097,P0600,PR006,10,Office Visit,Hypertension,167.27,0
+E00098,P0108,PR034,7,Emergency,Diabetes,709.21,0
+E00099,P0557,PR007,3,Office Visit,Depression,161.49,0
+E00100,P0202,PR077,10,Emergency,Chronic Kidney Disease,1558.36,0
+E00101,P0120,PR073,4,Office Visit,Asthma,560.59,0
+E00102,P0303,PR053,5,Inpatient,Hypertension,1773.04,0
+E00103,P0294,PR024,8,Outpatient,Heart Failure,409.58,0
+E00104,P0225,PR070,4,Emergency,Back Pain,910.59,0
+E00105,P0257,PR052,1,Office Visit,Hypertension,103.94,0
+E00106,P0059,PR029,4,Outpatient,Diabetes,223.96,0
+E00107,P0159,PR071,9,Office Visit,Diabetes,366.22,0
+E00108,P0119,PR017,6,Office Visit,Depression,437.36,0
+E00109,P0560,PR046,9,Outpatient,Hypertension,84.84,0
+E00110,P0297,PR056,1,Outpatient,COPD,882.88,0
+E00111,P0328,PR073,4,Outpatient,Heart Failure,569.44,0
+E00112,P0264,PR011,3,Inpatient,Back Pain,642.23,0
+E00113,P0531,PR024,1,Office Visit,Hypertension,520.66,0
+E00114,P0479,PR068,8,Outpatient,COPD,227.66,0
+E00115,P0414,PR040,3,Emergency,Back Pain,2154.69,1
+E00116,P0188,PR061,6,Office Visit,Hypertension,187.83,0
+E00117,P0186,PR062,12,Office Visit,Heart Failure,670.71,0
+E00118,P0565,PR025,3,Office Visit,Diabetes,1393.8,1
+E00119,P0559,PR027,3,Outpatient,Hypertension,249.04,0
+E00120,P0170,PR040,12,Outpatient,Diabetes,1050.02,0
+E00121,P0202,PR003,5,Emergency,Hypertension,72.55,0
+E00122,P0199,PR064,4,Emergency,Hypertension,242.93,0
+E00123,P0471,PR010,9,Emergency,Asthma,534.87,0
+E00124,P0570,PR075,2,Outpatient,COPD,1027.76,0
+E00125,P0533,PR063,5,Emergency,Hypertension,640.74,0
+E00126,P0505,PR029,3,Office Visit,Chronic Kidney Disease,1114.65,0
+E00127,P0210,PR006,11,Office Visit,Back Pain,505.58,0
+E00128,P0191,PR064,4,Outpatient,Hypertension,316.36,0
+E00129,P0534,PR036,7,Emergency,Diabetes,116.85,0
+E00130,P0238,PR016,7,Inpatient,Diabetes,5400.85,1
+E00131,P0130,PR035,6,Outpatient,Depression,96.85,0
+E00132,P0506,PR073,1,Emergency,Depression,389.25,0
+E00133,P0288,PR056,4,Office Visit,COPD,500.1,0
+E00134,P0052,PR055,11,Outpatient,Diabetes,421.29,0
+E00135,P0538,PR042,7,Outpatient,COPD,178.6,0
+E00136,P0177,PR013,11,Office Visit,Chronic Kidney Disease,137.62,0
+E00137,P0186,PR076,7,Outpatient,Hypertension,97.02,0
+E00138,P0319,PR060,4,Outpatient,Diabetes,785.61,0
+E00139,P0163,PR042,5,Emergency,Hypertension,108.81,0
+E00140,P0498,PR058,10,Office Visit,Chronic Kidney Disease,320.94,0
+E00141,P0415,PR030,3,Emergency,Back Pain,483.62,0
+E00142,P0339,PR060,8,Office Visit,Diabetes,178.31,0
+E00143,P0121,PR078,12,Office Visit,Back Pain,140.11,0
+E00144,P0294,PR028,11,Emergency,COPD,739.12,0
+E00145,P0164,PR001,5,Outpatient,Chronic Kidney Disease,813.69,0
+E00146,P0578,PR060,4,Outpatient,Depression,81.9,0
+E00147,P0476,PR069,8,Office Visit,Heart Failure,665.95,0
+E00148,P0070,PR067,8,Inpatient,Diabetes,2344.05,0
+E00149,P0317,PR079,9,Outpatient,Hypertension,78.12,0
+E00150,P0469,PR028,1,Inpatient,Asthma,1213.91,0
+E00151,P0314,PR074,7,Emergency,Heart Failure,536.57,0
+E00152,P0077,PR017,1,Office Visit,Hypertension,238.89,0
+E00153,P0084,PR047,12,Office Visit,Heart Failure,1060.95,0
+E00154,P0440,PR072,11,Outpatient,Hypertension,187.89,0
+E00155,P0315,PR074,9,Office Visit,Hypertension,449.25,0
+E00156,P0326,PR050,4,Outpatient,Depression,356.37,0
+E00157,P0162,PR044,9,Office Visit,Hypertension,447.25,0
+E00158,P0159,PR037,6,Outpatient,Hypertension,298.67,0
+E00159,P0245,PR070,8,Inpatient,Hypertension,2191.97,0
+E00160,P0327,PR071,3,Outpatient,Back Pain,294.4,0
+E00161,P0282,PR020,6,Office Visit,Diabetes,106.87,0
+E00162,P0528,PR011,11,Outpatient,Diabetes,215.25,0
+E00163,P0114,PR066,3,Outpatient,Hypertension,182.7,0
+E00164,P0284,PR065,5,Outpatient,Diabetes,378.3,0
+E00165,P0142,PR008,4,Emergency,Diabetes,864.08,0
+E00166,P0004,PR040,3,Office Visit,Diabetes,212.7,0
+E00167,P0249,PR041,5,Office Visit,Diabetes,2023.19,0
+E00168,P0034,PR004,8,Emergency,Chronic Kidney Disease,956.72,0
+E00169,P0224,PR054,1,Outpatient,Diabetes,403.15,0
+E00170,P0380,PR078,3,Emergency,Hypertension,202.4,0
+E00171,P0226,PR017,10,Outpatient,Chronic Kidney Disease,290.84,0
+E00172,P0407,PR063,4,Emergency,Diabetes,586.65,0
+E00173,P0177,PR007,5,Inpatient,Hypertension,928.88,1
+E00174,P0242,PR018,9,Emergency,Back Pain,322.9,0
+E00175,P0526,PR046,9,Outpatient,Heart Failure,2236.31,0
+E00176,P0146,PR074,12,Office Visit,Chronic Kidney Disease,586.65,0
+E00177,P0301,PR071,2,Emergency,COPD,646.3,0
+E00178,P0430,PR075,10,Office Visit,Back Pain,415.34,1
+E00179,P0218,PR080,9,Outpatient,Diabetes,353.76,0
+E00180,P0183,PR065,2,Office Visit,Diabetes,624.49,0
+E00181,P0419,PR030,11,Outpatient,Asthma,87.48,0
+E00182,P0045,PR011,4,Office Visit,Diabetes,146.72,0
+E00183,P0160,PR066,6,Outpatient,Heart Failure,655.96,0
+E00184,P0246,PR015,10,Office Visit,Diabetes,337.03,0
+E00185,P0131,PR042,7,Outpatient,Hypertension,113.25,0
+E00186,P0324,PR061,4,Outpatient,Chronic Kidney Disease,715.48,0
+E00187,P0372,PR003,4,Outpatient,Heart Failure,703.27,0
+E00188,P0580,PR074,9,Inpatient,Heart Failure,1416.05,1
+E00189,P0362,PR025,3,Office Visit,Diabetes,267.85,0
+E00190,P0356,PR018,6,Office Visit,Hypertension,257.28,0
+E00191,P0436,PR030,9,Emergency,Chronic Kidney Disease,458.8,0
+E00192,P0125,PR037,11,Office Visit,Diabetes,250.19,0
+E00193,P0283,PR037,10,Outpatient,Heart Failure,911.97,0
+E00194,P0500,PR013,5,Office Visit,COPD,424.51,0
+E00195,P0106,PR016,3,Outpatient,Hypertension,147.69,0
+E00196,P0175,PR039,12,Office Visit,Hypertension,105.05,0
+E00197,P0132,PR019,8,Outpatient,Asthma,108.21,0
+E00198,P0576,PR052,5,Inpatient,Hypertension,817.73,0
+E00199,P0213,PR072,11,Office Visit,Diabetes,2051.07,0
+E00200,P0196,PR002,9,Outpatient,Back Pain,340.18,0
+E00201,P0490,PR003,6,Office Visit,Diabetes,139.65,0
+E00202,P0546,PR052,3,Outpatient,Asthma,428.55,0
+E00203,P0003,PR003,1,Office Visit,Diabetes,221.04,0
+E00204,P0528,PR052,7,Emergency,Hypertension,344.8,0
+E00205,P0425,PR040,2,Emergency,COPD,432.21,0
+E00206,P0519,PR037,4,Office Visit,Diabetes,2046.06,0
+E00207,P0053,PR049,9,Office Visit,Asthma,98.23,0
+E00208,P0024,PR072,1,Office Visit,Hypertension,278.03,0
+E00209,P0202,PR011,12,Outpatient,Heart Failure,343.85,0
+E00210,P0510,PR011,6,Office Visit,Asthma,439.53,0
+E00211,P0300,PR056,11,Office Visit,Heart Failure,752.36,0
+E00212,P0433,PR005,3,Outpatient,COPD,1180.44,0
+E00213,P0148,PR035,6,Outpatient,Hypertension,384.27,0
+E00214,P0201,PR040,12,Outpatient,Diabetes,232.91,0
+E00215,P0527,PR032,8,Outpatient,Back Pain,2230.14,0
+E00216,P0295,PR043,10,Outpatient,Heart Failure,927.78,0
+E00217,P0468,PR010,9,Outpatient,Chronic Kidney Disease,417.77,0
+E00218,P0384,PR022,9,Office Visit,COPD,510.01,0
+E00219,P0106,PR001,5,Office Visit,Hypertension,358.35,0
+E00220,P0567,PR077,6,Outpatient,Diabetes,651.78,0
+E00221,P0568,PR067,1,Office Visit,Diabetes,603.22,0
+E00222,P0469,PR021,4,Emergency,COPD,1499.96,0
+E00223,P0282,PR003,1,Outpatient,Hypertension,433.28,0
+E00224,P0258,PR022,4,Outpatient,Diabetes,205.9,0
+E00225,P0179,PR077,9,Office Visit,Heart Failure,3212.81,0
+E00226,P0388,PR065,3,Outpatient,COPD,2090.41,0
+E00227,P0187,PR053,6,Outpatient,COPD,821.21,0
+E00228,P0112,PR074,7,Office Visit,Asthma,251.04,0
+E00229,P0037,PR015,2,Outpatient,Heart Failure,622.14,0
+E00230,P0255,PR043,10,Emergency,Diabetes,500.93,0
+E00231,P0490,PR064,10,Emergency,Asthma,333.33,0
+E00232,P0475,PR002,3,Outpatient,COPD,75.23,0
+E00233,P0510,PR035,1,Office Visit,COPD,1471.76,0
+E00234,P0364,PR029,1,Inpatient,Depression,2039.32,0
+E00235,P0521,PR015,4,Office Visit,Diabetes,106.07,0
+E00236,P0470,PR018,2,Inpatient,Heart Failure,5092.54,0
+E00237,P0485,PR078,1,Emergency,Hypertension,344.02,0
+E00238,P0306,PR041,6,Outpatient,Diabetes,345.93,0
+E00239,P0052,PR007,7,Outpatient,COPD,641.8,0
+E00240,P0229,PR055,1,Outpatient,Hypertension,53.66,0
+E00241,P0509,PR048,8,Emergency,Diabetes,643.21,0
+E00242,P0446,PR032,5,Outpatient,COPD,461.09,0
+E00243,P0008,PR032,3,Office Visit,Hypertension,230.72,0
+E00244,P0057,PR043,2,Office Visit,COPD,144.9,0
+E00245,P0396,PR075,10,Emergency,Diabetes,927.97,0
+E00246,P0588,PR061,2,Emergency,Hypertension,808.12,0
+E00247,P0439,PR033,3,Outpatient,COPD,599.36,0
+E00248,P0570,PR020,9,Outpatient,COPD,360.2,0
+E00249,P0040,PR009,8,Office Visit,Chronic Kidney Disease,5578.65,0
+E00250,P0529,PR016,12,Emergency,Back Pain,165.21,0
+E00251,P0077,PR011,1,Office Visit,Diabetes,753.12,0
+E00252,P0531,PR065,3,Office Visit,Hypertension,262.82,0
+E00253,P0585,PR047,8,Emergency,Depression,1515.01,0
+E00254,P0307,PR003,3,Office Visit,Heart Failure,810.67,0
+E00255,P0320,PR075,5,Outpatient,Back Pain,349.95,0
+E00256,P0299,PR013,4,Emergency,Chronic Kidney Disease,1556.27,0
+E00257,P0332,PR052,10,Office Visit,Asthma,104.37,0
+E00258,P0493,PR001,10,Emergency,Diabetes,323.88,0
+E00259,P0169,PR048,10,Outpatient,Hypertension,173.53,0
+E00260,P0170,PR045,7,Office Visit,Heart Failure,1279.68,0
+E00261,P0582,PR073,6,Outpatient,COPD,521.38,0
+E00262,P0510,PR049,7,Outpatient,Asthma,206.28,0
+E00263,P0325,PR040,1,Outpatient,Back Pain,648.47,0
+E00264,P0121,PR043,7,Office Visit,Hypertension,44.3,0
+E00265,P0574,PR051,4,Outpatient,COPD,153.45,0
+E00266,P0528,PR034,12,Outpatient,Depression,25.69,0
+E00267,P0198,PR058,3,Outpatient,Depression,497.69,0
+E00268,P0325,PR043,1,Office Visit,Asthma,225.26,0
+E00269,P0252,PR078,12,Office Visit,Heart Failure,1288.83,0
+E00270,P0506,PR016,2,Office Visit,Back Pain,198.23,0
+E00271,P0413,PR059,7,Office Visit,Hypertension,490.49,0
+E00272,P0296,PR067,5,Office Visit,Diabetes,366.52,0
+E00273,P0581,PR058,4,Office Visit,Diabetes,563.06,1
+E00274,P0366,PR079,6,Outpatient,COPD,534.22,0
+E00275,P0291,PR035,9,Office Visit,Asthma,318.88,0
+E00276,P0557,PR044,2,Emergency,COPD,2664.57,0
+E00277,P0270,PR013,8,Office Visit,Heart Failure,162.21,0
+E00278,P0251,PR030,11,Inpatient,Hypertension,860.26,1
+E00279,P0234,PR013,4,Outpatient,Chronic Kidney Disease,760.41,0
+E00280,P0133,PR064,9,Office Visit,Diabetes,421.62,0
+E00281,P0168,PR063,12,Office Visit,COPD,314.72,0
+E00282,P0055,PR016,12,Office Visit,Diabetes,264.46,0
+E00283,P0437,PR065,8,Office Visit,COPD,1471.47,0
+E00284,P0354,PR026,12,Outpatient,COPD,408.88,0
+E00285,P0560,PR059,10,Office Visit,Heart Failure,4183.13,0
+E00286,P0367,PR076,7,Office Visit,COPD,660.25,0
+E00287,P0049,PR067,2,Office Visit,Back Pain,171.59,0
+E00288,P0373,PR015,11,Outpatient,Depression,294.56,0
+E00289,P0106,PR015,4,Outpatient,Hypertension,236.04,0
+E00290,P0023,PR009,9,Inpatient,Diabetes,4984.8,0
+E00291,P0398,PR068,8,Outpatient,Diabetes,159.38,0
+E00292,P0017,PR044,5,Outpatient,Diabetes,96.02,0
+E00293,P0246,PR013,10,Outpatient,Hypertension,288.77,0
+E00294,P0538,PR047,8,Office Visit,Depression,369.4,0
+E00295,P0154,PR043,9,Office Visit,Back Pain,271.94,0
+E00296,P0418,PR048,12,Inpatient,Hypertension,1556.07,0
+E00297,P0226,PR051,4,Office Visit,Asthma,370.55,0
+E00298,P0068,PR014,10,Outpatient,Depression,57.92,0
+E00299,P0119,PR031,1,Outpatient,Hypertension,270.93,0
+E00300,P0045,PR058,9,Outpatient,Depression,542.8,0
+E00301,P0091,PR073,2,Office Visit,Back Pain,248.21,0
+E00302,P0098,PR020,3,Inpatient,Back Pain,318.61,0
+E00303,P0530,PR046,3,Outpatient,Asthma,186.34,1
+E00304,P0485,PR076,10,Outpatient,Hypertension,337.74,0
+E00305,P0213,PR049,5,Office Visit,Hypertension,909.92,0
+E00306,P0434,PR019,5,Office Visit,Back Pain,45.23,0
+E00307,P0123,PR047,5,Office Visit,Hypertension,288.83,0
+E00308,P0384,PR002,8,Office Visit,COPD,205.25,0
+E00309,P0122,PR040,11,Outpatient,Hypertension,324.74,0
+E00310,P0385,PR046,9,Office Visit,COPD,692.47,0
+E00311,P0215,PR005,2,Outpatient,Diabetes,336.62,0
+E00312,P0516,PR017,7,Office Visit,Asthma,403.4,0
+E00313,P0502,PR080,2,Outpatient,COPD,1076.98,0
+E00314,P0201,PR051,2,Office Visit,Hypertension,189.65,0
+E00315,P0025,PR037,3,Inpatient,Hypertension,311.75,0
+E00316,P0194,PR019,9,Office Visit,Heart Failure,1861.09,0
+E00317,P0170,PR010,11,Outpatient,Asthma,472.29,0
+E00318,P0256,PR035,3,Inpatient,Depression,1248.15,0
+E00319,P0345,PR044,12,Outpatient,Depression,108.91,0
+E00320,P0594,PR015,4,Emergency,COPD,1522.88,0
+E00321,P0038,PR065,4,Outpatient,Depression,969.97,0
+E00322,P0333,PR035,2,Emergency,COPD,628.26,0
+E00323,P0103,PR005,1,Outpatient,Chronic Kidney Disease,699.99,0
+E00324,P0329,PR011,8,Outpatient,Chronic Kidney Disease,276.81,0
+E00325,P0383,PR069,5,Inpatient,Hypertension,510.97,0
+E00326,P0486,PR028,2,Office Visit,COPD,183.16,0
+E00327,P0336,PR030,7,Outpatient,Chronic Kidney Disease,720.63,0
+E00328,P0107,PR016,5,Outpatient,Hypertension,164.72,0
+E00329,P0549,PR065,5,Outpatient,Asthma,327.96,0
+E00330,P0244,PR066,11,Outpatient,Hypertension,105.99,0
+E00331,P0288,PR020,5,Office Visit,Heart Failure,520.3,0
+E00332,P0385,PR059,6,Office Visit,Depression,88.28,0
+E00333,P0159,PR037,9,Inpatient,Diabetes,1979.51,0
+E00334,P0593,PR014,11,Emergency,Hypertension,93.78,0
+E00335,P0027,PR064,9,Inpatient,Heart Failure,2820.88,0
+E00336,P0093,PR007,6,Office Visit,Diabetes,324.56,0
+E00337,P0595,PR070,4,Office Visit,Hypertension,250.04,0
+E00338,P0272,PR003,3,Office Visit,Asthma,64.9,0
+E00339,P0536,PR026,2,Outpatient,Diabetes,684.88,0
+E00340,P0544,PR019,10,Outpatient,Heart Failure,468.47,0
+E00341,P0595,PR019,9,Emergency,Diabetes,772.13,0
+E00342,P0436,PR039,5,Office Visit,Diabetes,90.87,0
+E00343,P0410,PR061,12,Outpatient,Hypertension,80.05,0
+E00344,P0369,PR032,12,Office Visit,Back Pain,158.34,1
+E00345,P0410,PR042,8,Outpatient,Heart Failure,1788.01,0
+E00346,P0155,PR078,4,Office Visit,Hypertension,329.86,0
+E00347,P0490,PR040,7,Outpatient,Hypertension,240.03,0
+E00348,P0113,PR064,10,Emergency,Heart Failure,454.42,0
+E00349,P0288,PR031,7,Office Visit,Heart Failure,245.54,0
+E00350,P0225,PR007,6,Outpatient,Hypertension,269.93,0
+E00351,P0457,PR021,7,Office Visit,Diabetes,710.53,0
+E00352,P0154,PR013,11,Inpatient,COPD,2147.95,0
+E00353,P0124,PR073,5,Emergency,Chronic Kidney Disease,4077.01,0
+E00354,P0486,PR003,3,Office Visit,Asthma,140.99,0
+E00355,P0293,PR066,7,Outpatient,Heart Failure,686.74,0
+E00356,P0433,PR012,8,Office Visit,Chronic Kidney Disease,167.49,0
+E00357,P0528,PR013,12,Emergency,COPD,819.62,0
+E00358,P0502,PR043,2,Inpatient,Heart Failure,8095.31,1
+E00359,P0240,PR007,12,Office Visit,Chronic Kidney Disease,282.1,0
+E00360,P0103,PR007,10,Office Visit,Hypertension,424.35,0
+E00361,P0577,PR063,9,Outpatient,Back Pain,685.18,0
+E00362,P0186,PR005,3,Outpatient,Hypertension,124.6,0
+E00363,P0462,PR048,3,Outpatient,Heart Failure,864.38,0
+E00364,P0462,PR010,6,Outpatient,Heart Failure,2105.19,0
+E00365,P0266,PR007,3,Office Visit,Depression,227.63,0
+E00366,P0099,PR054,8,Outpatient,Diabetes,761.16,0
+E00367,P0284,PR032,10,Office Visit,Depression,45.79,0
+E00368,P0088,PR002,6,Office Visit,Diabetes,654.04,0
+E00369,P0212,PR055,9,Outpatient,Diabetes,613.55,0
+E00370,P0230,PR078,10,Office Visit,Depression,65.52,0
+E00371,P0311,PR045,11,Outpatient,Hypertension,100.02,0
+E00372,P0112,PR031,9,Outpatient,Heart Failure,964.55,0
+E00373,P0508,PR068,3,Inpatient,COPD,1426.41,0
+E00374,P0048,PR027,2,Outpatient,Back Pain,526.58,0
+E00375,P0592,PR050,12,Outpatient,Asthma,312.07,0
+E00376,P0188,PR038,10,Office Visit,Hypertension,226.34,0
+E00377,P0294,PR059,11,Outpatient,Asthma,212.36,0
+E00378,P0526,PR042,6,Outpatient,Hypertension,273.42,0
+E00379,P0393,PR039,2,Office Visit,Heart Failure,1130.94,0
+E00380,P0034,PR034,8,Office Visit,Asthma,373.05,0
+E00381,P0363,PR024,8,Office Visit,Chronic Kidney Disease,462.69,0
+E00382,P0340,PR039,3,Emergency,Chronic Kidney Disease,2799.01,0
+E00383,P0560,PR005,6,Outpatient,Depression,320.37,0
+E00384,P0338,PR028,6,Office Visit,Heart Failure,809.68,0
+E00385,P0596,PR007,4,Outpatient,Back Pain,232.81,0
+E00386,P0319,PR026,10,Outpatient,Diabetes,605.17,0
+E00387,P0116,PR029,6,Inpatient,Hypertension,209.89,1
+E00388,P0304,PR003,12,Office Visit,Asthma,295.21,0
+E00389,P0551,PR024,1,Outpatient,Hypertension,803.52,0
+E00390,P0011,PR054,12,Outpatient,COPD,515.94,0
+E00391,P0240,PR078,8,Outpatient,Asthma,260.19,0
+E00392,P0029,PR050,9,Office Visit,Heart Failure,369.35,0
+E00393,P0506,PR057,4,Outpatient,Diabetes,601.63,0
+E00394,P0307,PR054,1,Inpatient,Diabetes,1457.52,0
+E00395,P0430,PR076,3,Outpatient,Hypertension,616.65,0
+E00396,P0581,PR076,6,Outpatient,Hypertension,108.41,0
+E00397,P0500,PR010,5,Inpatient,Diabetes,1186.43,0
+E00398,P0245,PR038,3,Emergency,Depression,187.28,0
+E00399,P0561,PR073,1,Outpatient,Hypertension,938.72,0
+E00400,P0284,PR071,9,Office Visit,Asthma,209.1,0
+E00401,P0588,PR043,9,Emergency,Back Pain,223.27,0
+E00402,P0590,PR036,2,Office Visit,Hypertension,40.62,0
+E00403,P0133,PR005,10,Office Visit,Back Pain,104.35,0
+E00404,P0468,PR039,12,Office Visit,Diabetes,618.79,0
+E00405,P0419,PR041,12,Inpatient,Chronic Kidney Disease,4144.98,0
+E00406,P0463,PR051,3,Office Visit,Back Pain,128.5,0
+E00407,P0101,PR042,6,Outpatient,Asthma,151.13,0
+E00408,P0303,PR018,1,Office Visit,Hypertension,957.91,0
+E00409,P0091,PR078,1,Office Visit,Hypertension,1870.5,0
+E00410,P0539,PR018,11,Office Visit,Hypertension,542.76,0
+E00411,P0524,PR031,12,Outpatient,Back Pain,753.16,0
+E00412,P0349,PR041,3,Office Visit,Hypertension,892.47,0
+E00413,P0078,PR024,6,Office Visit,COPD,2544.43,0
+E00414,P0395,PR006,1,Inpatient,Hypertension,713.65,0
+E00415,P0264,PR049,10,Outpatient,Hypertension,107.15,0
+E00416,P0473,PR019,7,Office Visit,Hypertension,937.9,0
+E00417,P0060,PR071,4,Office Visit,Hypertension,100.03,0
+E00418,P0244,PR064,12,Outpatient,Heart Failure,261.28,0
+E00419,P0217,PR035,2,Office Visit,COPD,193.54,0
+E00420,P0572,PR038,4,Outpatient,COPD,389.51,0
+E00421,P0179,PR076,9,Emergency,COPD,141.53,0
+E00422,P0593,PR003,5,Office Visit,Hypertension,68.74,0
+E00423,P0554,PR031,9,Outpatient,Asthma,147.93,0
+E00424,P0353,PR005,3,Office Visit,COPD,166.21,0
+E00425,P0105,PR012,8,Inpatient,COPD,4251.46,0
+E00426,P0134,PR074,7,Outpatient,Hypertension,217.49,0
+E00427,P0011,PR009,1,Inpatient,Diabetes,2703.13,0
+E00428,P0465,PR077,4,Outpatient,Asthma,353.78,0
+E00429,P0436,PR063,4,Outpatient,Depression,160.44,0
+E00430,P0194,PR052,8,Office Visit,Hypertension,476.93,0
+E00431,P0439,PR060,6,Outpatient,Hypertension,310.62,0
+E00432,P0347,PR015,6,Emergency,Hypertension,268.31,1
+E00433,P0490,PR010,3,Office Visit,Chronic Kidney Disease,168.74,0
+E00434,P0053,PR030,12,Office Visit,Diabetes,615.23,0
+E00435,P0120,PR062,9,Office Visit,Back Pain,78.87,0
+E00436,P0485,PR025,9,Office Visit,Diabetes,549.88,0
+E00437,P0222,PR015,4,Office Visit,Back Pain,230.43,0
+E00438,P0576,PR063,9,Office Visit,Diabetes,136.62,0
+E00439,P0529,PR051,3,Emergency,Hypertension,425.63,0
+E00440,P0057,PR043,6,Office Visit,Hypertension,252.12,0
+E00441,P0243,PR033,4,Outpatient,Hypertension,252.85,0
+E00442,P0439,PR063,4,Office Visit,Back Pain,243.34,0
+E00443,P0082,PR059,8,Office Visit,COPD,256.75,0
+E00444,P0517,PR029,4,Outpatient,Diabetes,651.16,0
+E00445,P0059,PR011,9,Outpatient,Back Pain,124.8,0
+E00446,P0066,PR070,7,Outpatient,Hypertension,91.58,0
+E00447,P0327,PR011,12,Outpatient,Diabetes,695.88,0
+E00448,P0149,PR035,3,Emergency,Diabetes,1372.81,0
+E00449,P0384,PR072,12,Emergency,COPD,1124.36,0
+E00450,P0236,PR034,2,Outpatient,Back Pain,183.3,0
+E00451,P0163,PR067,7,Inpatient,Diabetes,361.04,1
+E00452,P0503,PR040,5,Inpatient,Asthma,3344.51,0
+E00453,P0096,PR060,10,Emergency,Hypertension,72.44,0
+E00454,P0297,PR048,2,Outpatient,Hypertension,345.75,0
+E00455,P0102,PR023,4,Outpatient,Chronic Kidney Disease,3511.01,0
+E00456,P0083,PR072,3,Office Visit,Asthma,274.3,0
+E00457,P0124,PR038,12,Office Visit,Heart Failure,751.03,0
+E00458,P0154,PR037,7,Office Visit,Hypertension,293.04,0
+E00459,P0248,PR053,2,Office Visit,Diabetes,475.33,0
+E00460,P0281,PR075,10,Emergency,Asthma,2553.28,0
+E00461,P0084,PR070,4,Inpatient,Heart Failure,1272.85,0
+E00462,P0024,PR032,3,Office Visit,COPD,199.34,0
+E00463,P0057,PR019,6,Inpatient,Hypertension,699.2,1
+E00464,P0379,PR026,10,Emergency,Asthma,1567.61,1
+E00465,P0585,PR022,11,Outpatient,Diabetes,255.69,0
+E00466,P0016,PR024,1,Emergency,Chronic Kidney Disease,1465.15,0
+E00467,P0021,PR035,11,Outpatient,Chronic Kidney Disease,1528.86,0
+E00468,P0469,PR002,12,Outpatient,Hypertension,403.45,0
+E00469,P0435,PR043,4,Inpatient,COPD,4103.3,1
+E00470,P0441,PR068,7,Office Visit,COPD,1345.33,0
+E00471,P0104,PR035,5,Office Visit,Heart Failure,761.31,0
+E00472,P0520,PR007,6,Inpatient,Depression,551.57,0
+E00473,P0375,PR032,8,Outpatient,Heart Failure,669.3,0
+E00474,P0095,PR027,8,Outpatient,Diabetes,309.27,0
+E00475,P0070,PR048,6,Outpatient,Hypertension,1626.36,0
+E00476,P0362,PR021,6,Office Visit,Heart Failure,388.52,0
+E00477,P0468,PR025,6,Outpatient,Hypertension,318.42,0
+E00478,P0469,PR060,5,Outpatient,Asthma,73.26,0
+E00479,P0353,PR015,2,Emergency,Diabetes,721.78,0
+E00480,P0310,PR075,5,Outpatient,Diabetes,322.4,0
+E00481,P0418,PR024,9,Office Visit,Hypertension,371.45,0
+E00482,P0079,PR066,12,Outpatient,Depression,331.86,0
+E00483,P0219,PR007,10,Office Visit,Chronic Kidney Disease,2016.4,0
+E00484,P0060,PR026,11,Office Visit,COPD,1261.5,0
+E00485,P0504,PR031,10,Office Visit,Hypertension,205.16,0
+E00486,P0364,PR037,7,Outpatient,Back Pain,101.63,0
+E00487,P0467,PR008,9,Outpatient,Depression,97.67,0
+E00488,P0299,PR020,11,Outpatient,Hypertension,275.63,0
+E00489,P0558,PR071,3,Outpatient,Asthma,276.13,0
+E00490,P0558,PR074,2,Office Visit,Back Pain,265.92,0
+E00491,P0370,PR036,4,Outpatient,Hypertension,141.0,0
+E00492,P0501,PR010,7,Outpatient,Hypertension,683.1,0
+E00493,P0396,PR023,10,Outpatient,Heart Failure,183.15,0
+E00494,P0435,PR077,6,Emergency,Hypertension,215.83,0
+E00495,P0149,PR074,12,Office Visit,Asthma,102.82,0
+E00496,P0590,PR066,4,Office Visit,Heart Failure,503.35,0
+E00497,P0111,PR070,6,Office Visit,Hypertension,586.46,0
+E00498,P0417,PR057,12,Outpatient,Hypertension,171.86,0
+E00499,P0365,PR050,3,Outpatient,Chronic Kidney Disease,703.91,0
+E00500,P0056,PR062,10,Outpatient,Diabetes,690.12,0
+E00501,P0465,PR052,2,Office Visit,Hypertension,165.44,0
+E00502,P0047,PR028,11,Outpatient,Diabetes,550.91,0
+E00503,P0306,PR052,4,Outpatient,Depression,231.35,0
+E00504,P0490,PR024,8,Inpatient,Diabetes,689.46,0
+E00505,P0076,PR051,9,Office Visit,Diabetes,279.78,0
+E00506,P0217,PR031,5,Outpatient,Asthma,323.21,0
+E00507,P0305,PR039,7,Inpatient,Diabetes,4751.92,1
+E00508,P0555,PR015,10,Outpatient,Chronic Kidney Disease,1808.91,0
+E00509,P0230,PR077,11,Outpatient,Hypertension,1156.61,0
+E00510,P0071,PR060,2,Outpatient,Depression,279.13,0
+E00511,P0079,PR009,6,Inpatient,Diabetes,1224.02,0
+E00512,P0120,PR039,11,Outpatient,Diabetes,385.41,0
+E00513,P0520,PR037,7,Emergency,Hypertension,316.03,0
+E00514,P0464,PR071,1,Office Visit,Back Pain,156.11,0
+E00515,P0251,PR061,2,Office Visit,Depression,257.16,0
+E00516,P0509,PR071,10,Outpatient,Hypertension,305.04,0
+E00517,P0552,PR038,6,Outpatient,Hypertension,84.59,0
+E00518,P0521,PR013,9,Office Visit,Diabetes,968.74,0
+E00519,P0003,PR058,11,Outpatient,Hypertension,49.77,0
+E00520,P0060,PR018,2,Office Visit,Hypertension,181.07,0
+E00521,P0436,PR051,6,Outpatient,Depression,474.74,0
+E00522,P0230,PR033,2,Emergency,Diabetes,1055.09,0
+E00523,P0096,PR028,11,Office Visit,Depression,142.27,0
+E00524,P0388,PR010,6,Office Visit,Diabetes,1959.66,0
+E00525,P0214,PR065,11,Office Visit,Depression,133.12,0
+E00526,P0552,PR056,4,Outpatient,COPD,87.22,0
+E00527,P0347,PR028,2,Outpatient,Diabetes,582.69,0
+E00528,P0144,PR060,11,Outpatient,Asthma,58.66,0
+E00529,P0561,PR079,8,Office Visit,Hypertension,111.24,0
+E00530,P0361,PR058,3,Outpatient,Depression,311.54,0
+E00531,P0178,PR076,9,Outpatient,Asthma,168.33,0
+E00532,P0087,PR038,6,Outpatient,Back Pain,344.24,0
+E00533,P0334,PR031,1,Outpatient,Depression,74.95,0
+E00534,P0449,PR068,4,Office Visit,Hypertension,429.94,0
+E00535,P0502,PR054,10,Office Visit,Hypertension,55.93,0
+E00536,P0077,PR049,2,Office Visit,Chronic Kidney Disease,1863.8,0
+E00537,P0260,PR052,5,Outpatient,Hypertension,147.91,0
+E00538,P0600,PR080,4,Office Visit,Heart Failure,2025.12,0
+E00539,P0397,PR055,9,Office Visit,Hypertension,110.44,0
+E00540,P0056,PR066,11,Emergency,Chronic Kidney Disease,4842.98,0
+E00541,P0551,PR003,10,Emergency,Hypertension,160.89,0
+E00542,P0412,PR058,9,Emergency,Diabetes,154.52,0
+E00543,P0277,PR026,2,Emergency,Back Pain,358.29,0
+E00544,P0467,PR010,11,Emergency,Depression,812.83,0
+E00545,P0390,PR023,2,Office Visit,Hypertension,407.27,0
+E00546,P0155,PR067,5,Office Visit,Diabetes,1028.48,0
+E00547,P0478,PR066,10,Office Visit,Asthma,465.47,0
+E00548,P0153,PR025,3,Outpatient,Hypertension,112.24,0
+E00549,P0138,PR016,3,Outpatient,Heart Failure,1098.38,0
+E00550,P0358,PR034,1,Inpatient,Asthma,1101.02,1
+E00551,P0012,PR027,5,Office Visit,Hypertension,122.62,0
+E00552,P0379,PR038,6,Outpatient,Hypertension,249.72,0
+E00553,P0331,PR063,6,Outpatient,Diabetes,387.77,0
+E00554,P0433,PR027,1,Outpatient,Hypertension,671.59,0
+E00555,P0096,PR014,3,Outpatient,Heart Failure,394.08,0
+E00556,P0349,PR009,1,Office Visit,Diabetes,258.83,1
+E00557,P0265,PR055,3,Office Visit,Back Pain,123.71,0
+E00558,P0105,PR016,8,Office Visit,Asthma,1110.0,0
+E00559,P0272,PR018,1,Outpatient,Hypertension,129.37,0
+E00560,P0555,PR065,2,Office Visit,Heart Failure,1678.96,0
+E00561,P0495,PR008,7,Outpatient,Hypertension,94.8,0
+E00562,P0100,PR053,7,Outpatient,Hypertension,324.46,0
+E00563,P0509,PR001,11,Office Visit,Heart Failure,733.97,0
+E00564,P0340,PR076,7,Outpatient,Diabetes,1088.07,0
+E00565,P0029,PR058,12,Inpatient,Hypertension,2170.35,0
+E00566,P0553,PR066,9,Office Visit,Diabetes,433.1,0
+E00567,P0316,PR054,7,Outpatient,Diabetes,263.96,0
+E00568,P0548,PR033,5,Outpatient,Chronic Kidney Disease,2381.39,0
+E00569,P0060,PR080,2,Outpatient,Back Pain,129.97,0
+E00570,P0101,PR063,9,Outpatient,Chronic Kidney Disease,105.77,0
+E00571,P0542,PR008,12,Inpatient,Back Pain,205.43,0
+E00572,P0144,PR047,5,Office Visit,Heart Failure,163.43,0
+E00573,P0330,PR044,5,Emergency,Hypertension,557.47,0
+E00574,P0362,PR023,2,Office Visit,Depression,1113.09,0
+E00575,P0569,PR037,8,Inpatient,Diabetes,333.15,1
+E00576,P0203,PR079,4,Emergency,Diabetes,347.03,0
+E00577,P0453,PR007,1,Outpatient,Back Pain,232.31,0
+E00578,P0439,PR075,1,Outpatient,Chronic Kidney Disease,2234.73,0
+E00579,P0421,PR057,5,Outpatient,Back Pain,115.18,0
+E00580,P0314,PR009,6,Outpatient,Diabetes,650.74,0
+E00581,P0043,PR025,6,Office Visit,Asthma,199.25,0
+E00582,P0160,PR068,9,Outpatient,Hypertension,1741.65,0
+E00583,P0337,PR057,7,Emergency,Hypertension,388.58,0
+E00584,P0247,PR007,10,Outpatient,Depression,251.61,0
+E00585,P0111,PR012,4,Emergency,Hypertension,370.28,0
+E00586,P0415,PR075,3,Outpatient,Chronic Kidney Disease,465.78,0
+E00587,P0277,PR013,7,Outpatient,Depression,404.73,0
+E00588,P0472,PR050,2,Emergency,Depression,119.83,0
+E00589,P0329,PR080,10,Office Visit,Diabetes,81.77,0
+E00590,P0222,PR014,3,Office Visit,Diabetes,359.71,0
+E00591,P0066,PR004,11,Emergency,Back Pain,664.68,0
+E00592,P0063,PR066,12,Outpatient,Heart Failure,373.84,0
+E00593,P0305,PR076,7,Outpatient,COPD,502.3,0
+E00594,P0212,PR042,4,Outpatient,Diabetes,152.77,0
+E00595,P0431,PR019,5,Outpatient,Diabetes,949.18,0
+E00596,P0379,PR005,6,Inpatient,Back Pain,1530.68,1
+E00597,P0171,PR073,6,Emergency,COPD,703.3,0
+E00598,P0456,PR064,1,Outpatient,Asthma,278.56,0
+E00599,P0340,PR072,3,Office Visit,Hypertension,70.95,0
+E00600,P0528,PR064,10,Inpatient,Hypertension,308.84,0
+E00601,P0572,PR035,1,Outpatient,Heart Failure,539.62,0
+E00602,P0578,PR039,6,Outpatient,Depression,285.52,0
+E00603,P0077,PR031,11,Emergency,Hypertension,543.68,0
+E00604,P0318,PR059,2,Office Visit,Hypertension,161.82,0
+E00605,P0018,PR009,12,Outpatient,Heart Failure,1080.05,0
+E00606,P0529,PR004,6,Office Visit,Diabetes,1264.08,0
+E00607,P0422,PR077,6,Outpatient,Hypertension,201.53,0
+E00608,P0158,PR026,9,Office Visit,Heart Failure,762.18,0
+E00609,P0365,PR003,10,Office Visit,Diabetes,343.5,0
+E00610,P0336,PR054,6,Outpatient,Chronic Kidney Disease,586.65,0
+E00611,P0326,PR032,1,Emergency,Diabetes,743.32,0
+E00612,P0324,PR019,12,Office Visit,Chronic Kidney Disease,2535.33,0
+E00613,P0591,PR035,1,Office Visit,Asthma,506.16,0
+E00614,P0462,PR037,11,Office Visit,Depression,366.31,0
+E00615,P0242,PR049,6,Office Visit,Chronic Kidney Disease,451.45,0
+E00616,P0464,PR075,7,Outpatient,Heart Failure,290.01,0
+E00617,P0085,PR071,10,Outpatient,Hypertension,295.45,0
+E00618,P0172,PR067,12,Office Visit,COPD,1170.28,0
+E00619,P0071,PR040,2,Office Visit,Diabetes,1610.32,0
+E00620,P0532,PR045,10,Outpatient,Chronic Kidney Disease,91.23,0
+E00621,P0015,PR011,8,Inpatient,Diabetes,12060.13,0
+E00622,P0535,PR047,5,Emergency,Hypertension,483.21,0
+E00623,P0500,PR054,6,Outpatient,COPD,895.29,0
+E00624,P0569,PR071,10,Outpatient,Chronic Kidney Disease,161.34,0
+E00625,P0460,PR004,2,Office Visit,Hypertension,178.99,0
+E00626,P0275,PR070,7,Outpatient,COPD,835.71,0
+E00627,P0487,PR042,9,Inpatient,Heart Failure,976.27,0
+E00628,P0593,PR008,7,Office Visit,Back Pain,21.46,0
+E00629,P0536,PR080,6,Outpatient,Chronic Kidney Disease,848.84,0
+E00630,P0471,PR038,7,Office Visit,Hypertension,207.89,0
+E00631,P0461,PR033,7,Outpatient,Depression,599.68,0
+E00632,P0392,PR016,10,Office Visit,Diabetes,356.93,0
+E00633,P0536,PR006,10,Outpatient,Hypertension,201.84,0
+E00634,P0260,PR007,12,Emergency,Diabetes,1134.12,0
+E00635,P0301,PR022,1,Office Visit,COPD,989.12,0
+E00636,P0506,PR024,4,Inpatient,Chronic Kidney Disease,1546.2,0
+E00637,P0158,PR038,11,Outpatient,Heart Failure,1266.56,0
+E00638,P0459,PR049,8,Outpatient,Asthma,160.33,0
+E00639,P0067,PR080,5,Emergency,Heart Failure,964.57,0
+E00640,P0352,PR064,8,Outpatient,Hypertension,369.99,0
+E00641,P0021,PR039,6,Outpatient,Heart Failure,1169.77,0
+E00642,P0599,PR073,11,Inpatient,Asthma,1318.67,0
+E00643,P0506,PR045,7,Emergency,COPD,291.65,1
+E00644,P0150,PR034,6,Emergency,COPD,155.06,0
+E00645,P0091,PR018,8,Outpatient,COPD,372.28,0
+E00646,P0386,PR034,3,Office Visit,Heart Failure,1293.99,0
+E00647,P0541,PR004,10,Office Visit,Hypertension,310.01,0
+E00648,P0193,PR013,3,Office Visit,Depression,229.74,0
+E00649,P0577,PR076,1,Outpatient,Hypertension,215.13,0
+E00650,P0275,PR016,1,Emergency,Diabetes,831.1,0
+E00651,P0266,PR046,1,Outpatient,Asthma,109.88,0
+E00652,P0204,PR009,2,Office Visit,Depression,353.36,0
+E00653,P0163,PR049,1,Emergency,Chronic Kidney Disease,2043.7,0
+E00654,P0201,PR079,4,Emergency,COPD,521.02,0
+E00655,P0104,PR037,12,Outpatient,Back Pain,306.88,0
+E00656,P0227,PR011,2,Office Visit,Hypertension,54.8,0
+E00657,P0174,PR002,9,Office Visit,Hypertension,249.86,0
+E00658,P0035,PR061,11,Outpatient,Heart Failure,534.83,0
+E00659,P0218,PR009,10,Outpatient,COPD,1184.87,0
+E00660,P0024,PR026,5,Office Visit,Heart Failure,507.52,0
+E00661,P0109,PR068,1,Emergency,Back Pain,693.53,0
+E00662,P0435,PR043,5,Inpatient,Hypertension,664.48,0
+E00663,P0016,PR070,8,Outpatient,Diabetes,65.14,0
+E00664,P0187,PR070,10,Outpatient,COPD,361.25,0
+E00665,P0411,PR053,2,Outpatient,COPD,506.44,0
+E00666,P0013,PR075,4,Inpatient,Chronic Kidney Disease,3075.5,0
+E00667,P0443,PR003,8,Emergency,Back Pain,395.29,0
+E00668,P0049,PR020,9,Inpatient,Chronic Kidney Disease,1817.81,1
+E00669,P0034,PR023,4,Office Visit,Back Pain,166.98,0
+E00670,P0118,PR073,10,Outpatient,Hypertension,87.86,0
+E00671,P0517,PR050,10,Office Visit,Hypertension,43.8,0
+E00672,P0029,PR021,5,Outpatient,Hypertension,198.68,0
+E00673,P0060,PR017,7,Outpatient,Asthma,134.09,0
+E00674,P0568,PR065,6,Outpatient,Diabetes,962.31,0
+E00675,P0367,PR069,9,Outpatient,Diabetes,70.8,0
+E00676,P0342,PR002,4,Outpatient,Hypertension,273.05,0
+E00677,P0025,PR030,4,Inpatient,Hypertension,4959.85,0
+E00678,P0237,PR043,6,Office Visit,Chronic Kidney Disease,560.7,0
+E00679,P0346,PR019,3,Emergency,Depression,302.21,0
+E00680,P0320,PR059,7,Outpatient,Diabetes,570.52,0
+E00681,P0313,PR061,12,Office Visit,Heart Failure,890.76,0
+E00682,P0068,PR068,5,Outpatient,Diabetes,292.56,0
+E00683,P0594,PR063,11,Outpatient,Hypertension,96.57,1
+E00684,P0422,PR068,6,Outpatient,Hypertension,364.68,0
+E00685,P0145,PR030,2,Outpatient,Heart Failure,129.28,0
+E00686,P0582,PR024,6,Emergency,Heart Failure,1852.41,0
+E00687,P0181,PR026,6,Emergency,Chronic Kidney Disease,759.02,1
+E00688,P0079,PR069,1,Outpatient,Asthma,243.99,0
+E00689,P0536,PR052,6,Office Visit,Diabetes,266.39,0
+E00690,P0092,PR026,2,Outpatient,Asthma,764.59,0
+E00691,P0037,PR058,10,Outpatient,Chronic Kidney Disease,792.09,0
+E00692,P0378,PR019,7,Office Visit,Diabetes,313.59,0
+E00693,P0159,PR022,4,Emergency,Hypertension,261.63,0
+E00694,P0092,PR001,1,Emergency,Diabetes,576.48,0
+E00695,P0062,PR078,7,Outpatient,Diabetes,2760.09,0
+E00696,P0076,PR019,9,Office Visit,Hypertension,75.43,0
+E00697,P0577,PR061,6,Outpatient,Hypertension,514.48,0
+E00698,P0403,PR010,11,Outpatient,Depression,298.21,0
+E00699,P0506,PR003,3,Outpatient,Depression,648.83,0
+E00700,P0372,PR054,10,Outpatient,Heart Failure,984.08,0
+E00701,P0327,PR008,6,Outpatient,Asthma,244.04,0
+E00702,P0131,PR012,4,Outpatient,Back Pain,489.25,0
+E00703,P0581,PR027,4,Office Visit,Hypertension,260.0,0
+E00704,P0494,PR047,6,Outpatient,COPD,791.53,0
+E00705,P0317,PR002,1,Outpatient,Chronic Kidney Disease,2034.58,0
+E00706,P0064,PR011,8,Inpatient,Back Pain,978.44,0
+E00707,P0457,PR028,5,Emergency,Asthma,277.31,0
+E00708,P0200,PR057,9,Outpatient,Diabetes,242.36,0
+E00709,P0126,PR008,7,Outpatient,Chronic Kidney Disease,930.67,0
+E00710,P0444,PR023,12,Outpatient,Hypertension,107.16,0
+E00711,P0503,PR016,1,Inpatient,Hypertension,686.84,0
+E00712,P0369,PR025,6,Outpatient,Heart Failure,274.35,0
+E00713,P0045,PR021,7,Outpatient,Chronic Kidney Disease,974.71,0
+E00714,P0361,PR052,3,Office Visit,Diabetes,222.24,0
+E00715,P0552,PR006,9,Office Visit,Hypertension,77.28,0
+E00716,P0412,PR076,5,Outpatient,Chronic Kidney Disease,266.89,0
+E00717,P0160,PR020,10,Outpatient,Diabetes,256.88,0
+E00718,P0388,PR080,12,Outpatient,Depression,128.91,0
+E00719,P0150,PR059,11,Outpatient,COPD,529.09,0
+E00720,P0525,PR029,8,Outpatient,Heart Failure,522.78,0
+E00721,P0508,PR025,9,Emergency,Diabetes,872.81,0
+E00722,P0342,PR076,11,Emergency,Back Pain,496.38,0
+E00723,P0082,PR080,12,Office Visit,Depression,342.31,0
+E00724,P0241,PR049,9,Office Visit,Diabetes,88.16,0
+E00725,P0073,PR004,11,Office Visit,Chronic Kidney Disease,263.4,0
+E00726,P0460,PR073,12,Outpatient,Asthma,379.38,0
+E00727,P0409,PR039,3,Office Visit,Diabetes,480.39,0
+E00728,P0156,PR003,7,Outpatient,Heart Failure,1299.85,0
+E00729,P0514,PR065,5,Outpatient,Depression,55.04,0
+E00730,P0456,PR003,12,Outpatient,COPD,295.86,0
+E00731,P0562,PR030,9,Office Visit,Back Pain,170.67,0
+E00732,P0168,PR006,11,Office Visit,Diabetes,463.46,0
+E00733,P0105,PR035,5,Office Visit,Back Pain,222.64,0
+E00734,P0289,PR065,11,Office Visit,Back Pain,314.86,0
+E00735,P0160,PR011,1,Emergency,Diabetes,592.14,0
+E00736,P0444,PR012,12,Outpatient,COPD,1297.08,0
+E00737,P0256,PR077,3,Outpatient,Heart Failure,2301.75,0
+E00738,P0377,PR015,7,Emergency,Depression,123.84,0
+E00739,P0104,PR010,9,Office Visit,Diabetes,420.55,0
+E00740,P0052,PR047,9,Office Visit,Hypertension,409.63,0
+E00741,P0563,PR023,3,Outpatient,Asthma,388.74,0
+E00742,P0268,PR077,7,Inpatient,Hypertension,655.68,0
+E00743,P0084,PR014,7,Outpatient,Heart Failure,729.49,0
+E00744,P0488,PR046,10,Emergency,Heart Failure,268.19,0
+E00745,P0080,PR074,4,Emergency,Back Pain,340.89,0
+E00746,P0599,PR059,10,Emergency,Diabetes,201.79,0
+E00747,P0232,PR003,8,Outpatient,Back Pain,324.81,0
+E00748,P0281,PR016,10,Office Visit,Heart Failure,243.64,0
+E00749,P0156,PR011,11,Outpatient,Depression,215.67,0
+E00750,P0052,PR074,6,Outpatient,Diabetes,523.65,0
+E00751,P0246,PR017,6,Outpatient,Chronic Kidney Disease,689.63,0
+E00752,P0220,PR005,10,Outpatient,Depression,114.18,0
+E00753,P0269,PR031,10,Outpatient,Asthma,205.68,0
+E00754,P0294,PR023,11,Office Visit,Diabetes,1043.49,0
+E00755,P0379,PR014,7,Outpatient,COPD,308.07,0
+E00756,P0045,PR037,8,Outpatient,Diabetes,412.65,0
+E00757,P0218,PR073,1,Outpatient,Diabetes,259.83,0
+E00758,P0519,PR019,6,Office Visit,Chronic Kidney Disease,1468.23,0
+E00759,P0572,PR079,3,Outpatient,Back Pain,230.24,0
+E00760,P0324,PR054,11,Office Visit,Chronic Kidney Disease,352.23,0
+E00761,P0220,PR031,2,Outpatient,Diabetes,407.96,0
+E00762,P0250,PR055,10,Office Visit,Hypertension,178.4,0
+E00763,P0470,PR028,11,Emergency,Hypertension,1054.61,0
+E00764,P0239,PR017,6,Office Visit,Diabetes,391.39,0
+E00765,P0567,PR019,9,Office Visit,Depression,62.62,0
+E00766,P0017,PR001,7,Inpatient,Diabetes,2538.82,0
+E00767,P0364,PR052,9,Outpatient,Diabetes,1693.13,0
+E00768,P0312,PR006,9,Outpatient,Asthma,634.09,0
+E00769,P0271,PR016,4,Inpatient,Diabetes,705.0,0
+E00770,P0286,PR001,9,Emergency,Hypertension,279.19,0
+E00771,P0096,PR006,11,Office Visit,COPD,422.19,0
+E00772,P0208,PR073,4,Outpatient,Diabetes,399.66,0
+E00773,P0213,PR002,4,Outpatient,Heart Failure,806.92,0
+E00774,P0396,PR050,4,Emergency,COPD,525.7,0
+E00775,P0359,PR027,11,Office Visit,Chronic Kidney Disease,311.99,0
+E00776,P0247,PR012,11,Outpatient,Hypertension,463.26,0
+E00777,P0311,PR024,5,Outpatient,Hypertension,88.06,0
+E00778,P0344,PR008,12,Emergency,Chronic Kidney Disease,546.63,0
+E00779,P0029,PR026,10,Office Visit,Diabetes,164.29,0
+E00780,P0532,PR066,5,Inpatient,Diabetes,2780.32,1
+E00781,P0536,PR050,10,Outpatient,Hypertension,235.58,0
+E00782,P0219,PR065,11,Outpatient,Diabetes,822.43,0
+E00783,P0457,PR056,11,Outpatient,Diabetes,216.44,0
+E00784,P0239,PR075,6,Office Visit,Back Pain,79.4,0
+E00785,P0041,PR009,3,Outpatient,COPD,303.35,0
+E00786,P0520,PR013,3,Outpatient,Heart Failure,514.12,0
+E00787,P0161,PR033,10,Outpatient,Hypertension,255.73,0
+E00788,P0215,PR042,9,Outpatient,Diabetes,105.59,0
+E00789,P0346,PR063,9,Emergency,Asthma,571.14,0
+E00790,P0264,PR010,1,Outpatient,Asthma,119.01,0
+E00791,P0160,PR009,12,Office Visit,Back Pain,128.89,0
+E00792,P0481,PR064,2,Office Visit,Diabetes,1037.36,0
+E00793,P0214,PR044,7,Outpatient,Diabetes,70.73,0
+E00794,P0356,PR033,12,Office Visit,Chronic Kidney Disease,840.06,0
+E00795,P0400,PR018,3,Emergency,Hypertension,446.68,0
+E00796,P0561,PR056,7,Office Visit,Diabetes,210.7,0
+E00797,P0288,PR065,11,Office Visit,Hypertension,151.3,0
+E00798,P0283,PR003,4,Emergency,Diabetes,1723.83,0
+E00799,P0548,PR005,2,Inpatient,Depression,3822.84,0
+E00800,P0288,PR063,6,Emergency,Depression,709.89,0
+E00801,P0179,PR071,10,Outpatient,Chronic Kidney Disease,2934.13,0
+E00802,P0026,PR019,7,Office Visit,Hypertension,124.44,0
+E00803,P0195,PR057,6,Office Visit,Asthma,68.76,0
+E00804,P0119,PR068,8,Outpatient,Chronic Kidney Disease,622.27,0
+E00805,P0183,PR010,1,Office Visit,Asthma,463.37,0
+E00806,P0324,PR015,5,Emergency,COPD,156.99,0
+E00807,P0315,PR011,11,Outpatient,Back Pain,103.1,0
+E00808,P0113,PR064,5,Emergency,Hypertension,180.29,0
+E00809,P0279,PR062,12,Inpatient,Heart Failure,3323.56,0
+E00810,P0273,PR011,7,Outpatient,Asthma,291.99,0
+E00811,P0026,PR014,12,Outpatient,Depression,101.82,0
+E00812,P0170,PR054,8,Inpatient,Back Pain,1049.21,1
+E00813,P0434,PR072,6,Outpatient,Hypertension,86.58,0
+E00814,P0013,PR063,12,Emergency,Chronic Kidney Disease,738.29,0
+E00815,P0181,PR014,4,Outpatient,Hypertension,78.65,0
+E00816,P0286,PR031,5,Outpatient,Chronic Kidney Disease,575.52,0
+E00817,P0100,PR006,9,Outpatient,Diabetes,213.81,0
+E00818,P0388,PR020,11,Outpatient,COPD,751.67,0
+E00819,P0430,PR046,3,Inpatient,Back Pain,889.8,0
+E00820,P0203,PR028,12,Outpatient,Asthma,203.01,0
+E00821,P0139,PR049,6,Outpatient,COPD,1780.24,0
+E00822,P0466,PR024,5,Office Visit,Diabetes,551.2,0
+E00823,P0130,PR046,2,Inpatient,Hypertension,676.83,0
+E00824,P0088,PR051,1,Outpatient,Diabetes,254.29,0
+E00825,P0020,PR016,7,Emergency,Diabetes,252.28,0
+E00826,P0055,PR004,8,Outpatient,Depression,179.58,0
+E00827,P0523,PR028,2,Emergency,COPD,885.45,0
+E00828,P0561,PR004,11,Office Visit,Diabetes,87.7,0
+E00829,P0328,PR013,7,Emergency,Chronic Kidney Disease,348.73,0
+E00830,P0553,PR024,1,Office Visit,Diabetes,268.43,0
+E00831,P0425,PR028,11,Inpatient,Hypertension,377.43,0
+E00832,P0244,PR023,3,Outpatient,Hypertension,223.96,0
+E00833,P0428,PR005,9,Office Visit,Diabetes,469.27,0
+E00834,P0252,PR015,9,Office Visit,Heart Failure,539.48,0
+E00835,P0578,PR071,10,Outpatient,Chronic Kidney Disease,1007.88,0
+E00836,P0511,PR058,10,Inpatient,COPD,1138.15,0
+E00837,P0507,PR036,12,Emergency,Depression,291.96,0
+E00838,P0319,PR002,2,Emergency,Back Pain,155.12,0
+E00839,P0311,PR029,5,Outpatient,Asthma,305.62,0
+E00840,P0071,PR074,5,Emergency,Back Pain,367.82,0
+E00841,P0392,PR065,5,Outpatient,Back Pain,82.93,0
+E00842,P0069,PR061,3,Inpatient,Depression,702.3,1
+E00843,P0325,PR020,3,Outpatient,Hypertension,209.89,0
+E00844,P0079,PR033,12,Office Visit,Diabetes,507.89,0
+E00845,P0286,PR003,11,Outpatient,Asthma,313.92,0
+E00846,P0469,PR069,9,Office Visit,Depression,106.31,0
+E00847,P0186,PR010,7,Outpatient,Depression,348.71,0
+E00848,P0362,PR050,6,Emergency,Chronic Kidney Disease,1578.01,0
+E00849,P0156,PR023,9,Emergency,Depression,169.64,0
+E00850,P0180,PR046,11,Outpatient,Chronic Kidney Disease,260.16,0
+E00851,P0110,PR067,6,Emergency,Chronic Kidney Disease,618.29,0
+E00852,P0098,PR026,7,Office Visit,Diabetes,124.98,0
+E00853,P0224,PR002,11,Office Visit,COPD,511.02,0
+E00854,P0075,PR054,11,Outpatient,Diabetes,1045.57,0
+E00855,P0535,PR043,3,Outpatient,Diabetes,1264.84,0
+E00856,P0445,PR012,3,Outpatient,Heart Failure,248.88,0
+E00857,P0133,PR004,3,Office Visit,Diabetes,761.21,0
+E00858,P0532,PR042,1,Office Visit,Back Pain,231.47,0
+E00859,P0220,PR050,9,Office Visit,COPD,63.64,0
+E00860,P0319,PR010,6,Inpatient,Chronic Kidney Disease,2089.41,1
+E00861,P0420,PR048,1,Outpatient,Diabetes,284.44,0
+E00862,P0464,PR036,3,Emergency,Depression,797.9,0
+E00863,P0005,PR011,7,Emergency,COPD,344.9,0
+E00864,P0170,PR050,11,Emergency,Heart Failure,1493.55,0
+E00865,P0202,PR052,8,Office Visit,Chronic Kidney Disease,595.74,0
+E00866,P0352,PR013,7,Outpatient,Heart Failure,187.13,0
+E00867,P0524,PR054,3,Emergency,Heart Failure,611.99,0
+E00868,P0263,PR018,4,Office Visit,Asthma,828.77,0
+E00869,P0279,PR048,10,Emergency,Asthma,338.98,0
+E00870,P0053,PR066,10,Outpatient,Hypertension,446.55,0
+E00871,P0316,PR075,11,Office Visit,Back Pain,427.39,0
+E00872,P0293,PR021,7,Outpatient,Hypertension,151.15,0
+E00873,P0383,PR028,4,Office Visit,Hypertension,77.49,0
+E00874,P0509,PR008,7,Emergency,Hypertension,137.75,0
+E00875,P0341,PR078,11,Outpatient,Hypertension,691.03,0
+E00876,P0032,PR027,3,Outpatient,Hypertension,244.26,0
+E00877,P0491,PR065,11,Outpatient,Depression,47.29,0
+E00878,P0287,PR075,12,Outpatient,Heart Failure,1159.36,0
+E00879,P0292,PR039,10,Outpatient,Back Pain,51.8,0
+E00880,P0524,PR056,8,Outpatient,Diabetes,209.47,0
+E00881,P0354,PR038,5,Outpatient,Heart Failure,634.92,0
+E00882,P0475,PR047,11,Office Visit,Diabetes,3046.66,0
+E00883,P0529,PR020,2,Emergency,COPD,1329.83,0
+E00884,P0297,PR068,10,Outpatient,Hypertension,147.08,0
+E00885,P0590,PR010,5,Outpatient,Chronic Kidney Disease,663.89,0
+E00886,P0103,PR053,7,Emergency,Asthma,812.74,0
+E00887,P0523,PR074,6,Outpatient,Hypertension,674.75,0
+E00888,P0510,PR065,1,Outpatient,Diabetes,332.74,0
+E00889,P0060,PR061,12,Office Visit,Hypertension,181.63,0
+E00890,P0092,PR053,9,Inpatient,Hypertension,467.74,0
+E00891,P0023,PR076,8,Outpatient,Chronic Kidney Disease,1104.99,0
+E00892,P0167,PR070,2,Inpatient,COPD,4129.31,0
+E00893,P0595,PR022,10,Outpatient,Depression,40.14,0
+E00894,P0075,PR050,12,Outpatient,Back Pain,157.5,0
+E00895,P0021,PR035,10,Outpatient,Hypertension,81.95,0
+E00896,P0276,PR022,3,Emergency,Back Pain,390.56,0
+E00897,P0213,PR066,3,Office Visit,Asthma,90.4,0
+E00898,P0378,PR004,5,Office Visit,Diabetes,141.08,0
+E00899,P0364,PR011,1,Inpatient,Depression,1953.2,0
+E00900,P0497,PR009,7,Office Visit,COPD,379.0,0
+E00901,P0249,PR017,6,Outpatient,Chronic Kidney Disease,618.65,0
+E00902,P0277,PR041,7,Office Visit,Chronic Kidney Disease,916.73,0
+E00903,P0014,PR076,12,Outpatient,Depression,411.57,0
+E00904,P0583,PR078,8,Office Visit,Asthma,174.12,0
+E00905,P0128,PR073,6,Emergency,Depression,220.58,0
+E00906,P0358,PR061,10,Office Visit,Hypertension,158.1,0
+E00907,P0529,PR037,5,Outpatient,Back Pain,513.92,1
+E00908,P0363,PR063,10,Office Visit,Chronic Kidney Disease,614.59,0
+E00909,P0376,PR022,12,Outpatient,Asthma,192.82,0
+E00910,P0106,PR054,11,Outpatient,Depression,258.8,0
+E00911,P0426,PR001,7,Office Visit,Diabetes,1755.43,0
+E00912,P0115,PR073,6,Outpatient,Hypertension,229.59,0
+E00913,P0416,PR078,5,Outpatient,Depression,152.59,0
+E00914,P0346,PR059,7,Office Visit,Back Pain,1023.78,0
+E00915,P0294,PR014,12,Outpatient,Asthma,705.2,0
+E00916,P0433,PR021,11,Outpatient,COPD,1116.4,0
+E00917,P0432,PR060,8,Inpatient,Hypertension,608.74,0
+E00918,P0123,PR040,4,Outpatient,COPD,267.77,0
+E00919,P0226,PR044,5,Outpatient,Hypertension,49.88,0
+E00920,P0291,PR033,3,Emergency,Depression,655.41,1
+E00921,P0092,PR067,3,Outpatient,Heart Failure,632.74,0
+E00922,P0214,PR014,1,Inpatient,Hypertension,215.13,0
+E00923,P0025,PR036,10,Office Visit,COPD,1131.71,0
+E00924,P0264,PR018,9,Office Visit,Back Pain,165.17,0
+E00925,P0124,PR056,3,Outpatient,Heart Failure,501.29,0
+E00926,P0134,PR023,9,Outpatient,Hypertension,64.49,1
+E00927,P0492,PR024,2,Emergency,COPD,1026.35,0
+E00928,P0085,PR014,4,Outpatient,COPD,646.4,0
+E00929,P0073,PR070,4,Emergency,Hypertension,333.11,0
+E00930,P0193,PR018,2,Emergency,Asthma,278.68,0
+E00931,P0015,PR070,9,Office Visit,Hypertension,1768.75,0
+E00932,P0522,PR074,1,Outpatient,COPD,165.23,0
+E00933,P0593,PR078,5,Office Visit,COPD,242.95,0
+E00934,P0484,PR028,6,Office Visit,COPD,762.5,0
+E00935,P0480,PR053,7,Outpatient,Heart Failure,264.25,0
+E00936,P0061,PR067,3,Emergency,Chronic Kidney Disease,434.81,0
+E00937,P0333,PR007,6,Outpatient,Diabetes,1002.93,0
+E00938,P0053,PR006,10,Inpatient,Hypertension,1474.53,0
+E00939,P0181,PR017,5,Outpatient,Asthma,358.51,0
+E00940,P0296,PR079,12,Outpatient,Depression,218.94,0
+E00941,P0409,PR008,6,Office Visit,Diabetes,233.16,0
+E00942,P0167,PR062,10,Outpatient,Diabetes,331.4,0
+E00943,P0154,PR068,2,Outpatient,Back Pain,203.08,1
+E00944,P0495,PR073,11,Outpatient,Diabetes,798.26,0
+E00945,P0135,PR043,6,Emergency,Back Pain,486.65,0
+E00946,P0292,PR043,12,Outpatient,Depression,90.11,0
+E00947,P0173,PR060,9,Office Visit,Diabetes,762.88,0
+E00948,P0512,PR051,9,Office Visit,Diabetes,105.92,0
+E00949,P0321,PR063,2,Office Visit,Back Pain,167.42,0
+E00950,P0065,PR029,7,Outpatient,Hypertension,86.77,0
+E00951,P0089,PR075,9,Outpatient,Heart Failure,299.7,0
+E00952,P0583,PR035,10,Inpatient,Hypertension,4243.78,0
+E00953,P0565,PR020,5,Emergency,Heart Failure,293.51,0
+E00954,P0461,PR061,7,Inpatient,Depression,412.84,0
+E00955,P0047,PR050,3,Office Visit,Chronic Kidney Disease,976.32,0
+E00956,P0440,PR004,6,Emergency,Diabetes,445.62,0
+E00957,P0397,PR014,6,Inpatient,Heart Failure,2829.88,0
+E00958,P0565,PR003,1,Office Visit,Chronic Kidney Disease,2036.75,0
+E00959,P0292,PR047,11,Inpatient,Hypertension,1534.01,1
+E00960,P0283,PR070,8,Outpatient,Asthma,167.28,0
+E00961,P0380,PR026,3,Outpatient,Heart Failure,534.58,0
+E00962,P0090,PR009,11,Office Visit,Diabetes,620.14,0
+E00963,P0448,PR069,9,Office Visit,Back Pain,359.55,0
+E00964,P0299,PR058,9,Office Visit,COPD,439.93,0
+E00965,P0113,PR044,12,Office Visit,Hypertension,288.69,0
+E00966,P0490,PR016,5,Office Visit,Diabetes,541.71,0
+E00967,P0159,PR054,5,Emergency,Hypertension,321.53,0
+E00968,P0516,PR030,8,Outpatient,Hypertension,133.31,0
+E00969,P0164,PR020,11,Outpatient,Hypertension,391.87,0
+E00970,P0294,PR024,10,Office Visit,Asthma,307.38,0
+E00971,P0263,PR005,10,Office Visit,Chronic Kidney Disease,122.82,0
+E00972,P0440,PR040,10,Emergency,Diabetes,335.22,0
+E00973,P0112,PR061,1,Outpatient,Chronic Kidney Disease,441.83,0
+E00974,P0149,PR067,6,Outpatient,Asthma,207.21,0
+E00975,P0116,PR058,5,Inpatient,COPD,4761.15,0
+E00976,P0139,PR071,5,Outpatient,Back Pain,2803.76,0
+E00977,P0272,PR078,11,Office Visit,Hypertension,30.26,0
+E00978,P0352,PR018,5,Outpatient,Diabetes,517.49,0
+E00979,P0519,PR035,11,Office Visit,Diabetes,428.86,0
+E00980,P0254,PR028,11,Emergency,Hypertension,299.61,0
+E00981,P0246,PR055,6,Outpatient,COPD,668.04,0
+E00982,P0097,PR067,3,Outpatient,Diabetes,457.28,0
+E00983,P0060,PR072,9,Emergency,Heart Failure,712.88,0
+E00984,P0457,PR008,11,Outpatient,Depression,193.78,0
+E00985,P0380,PR042,5,Outpatient,Asthma,379.89,0
+E00986,P0320,PR010,3,Office Visit,Chronic Kidney Disease,938.84,0
+E00987,P0267,PR027,7,Office Visit,Chronic Kidney Disease,754.74,0
+E00988,P0313,PR039,12,Office Visit,Asthma,152.61,0
+E00989,P0508,PR050,7,Outpatient,COPD,4127.05,0
+E00990,P0114,PR064,6,Outpatient,Hypertension,288.43,0
+E00991,P0300,PR080,6,Outpatient,Hypertension,398.15,0
+E00992,P0145,PR027,9,Emergency,Diabetes,432.35,0
+E00993,P0063,PR045,5,Outpatient,Heart Failure,692.37,0
+E00994,P0416,PR006,9,Inpatient,COPD,2101.43,1
+E00995,P0423,PR009,12,Outpatient,Diabetes,87.87,0
+E00996,P0512,PR078,10,Outpatient,Hypertension,121.94,0
+E00997,P0013,PR076,12,Office Visit,Asthma,135.17,0
+E00998,P0107,PR076,10,Outpatient,Hypertension,133.82,0
+E00999,P0345,PR021,11,Office Visit,COPD,183.85,0
+E01000,P0488,PR053,1,Inpatient,Diabetes,1764.52,1
+E01001,P0565,PR019,5,Emergency,Diabetes,1984.96,0
+E01002,P0473,PR055,4,Office Visit,Asthma,270.16,0
+E01003,P0543,PR039,11,Office Visit,Diabetes,157.66,0
+E01004,P0489,PR075,3,Outpatient,Hypertension,94.83,0
+E01005,P0190,PR030,12,Emergency,Back Pain,256.01,0
+E01006,P0350,PR052,9,Outpatient,COPD,139.42,0
+E01007,P0382,PR053,2,Outpatient,Heart Failure,759.02,0
+E01008,P0212,PR064,9,Office Visit,Chronic Kidney Disease,1915.91,0
+E01009,P0532,PR005,5,Outpatient,Diabetes,255.89,0
+E01010,P0463,PR038,4,Office Visit,Hypertension,229.93,0
+E01011,P0311,PR037,12,Outpatient,Hypertension,153.5,0
+E01012,P0288,PR019,10,Outpatient,Hypertension,130.73,0
+E01013,P0476,PR065,10,Office Visit,Hypertension,251.77,0
+E01014,P0134,PR067,4,Office Visit,Heart Failure,349.96,0
+E01015,P0132,PR007,8,Inpatient,Diabetes,892.32,0
+E01016,P0242,PR055,5,Outpatient,Diabetes,111.06,0
+E01017,P0077,PR069,8,Outpatient,Heart Failure,626.49,0
+E01018,P0275,PR024,5,Outpatient,COPD,1015.98,0
+E01019,P0260,PR051,8,Office Visit,Heart Failure,1047.65,0
+E01020,P0304,PR050,9,Outpatient,Diabetes,1338.17,0
+E01021,P0277,PR002,4,Emergency,Chronic Kidney Disease,605.38,0
+E01022,P0539,PR066,1,Outpatient,Depression,373.89,0
+E01023,P0165,PR061,2,Inpatient,COPD,752.18,0
+E01024,P0247,PR022,11,Office Visit,Depression,333.86,0
+E01025,P0443,PR026,12,Office Visit,Hypertension,806.1,0
+E01026,P0171,PR062,9,Outpatient,Diabetes,604.36,0
+E01027,P0394,PR065,2,Outpatient,Hypertension,817.54,0
+E01028,P0578,PR006,8,Outpatient,COPD,268.01,0
+E01029,P0226,PR029,6,Office Visit,Depression,170.02,0
+E01030,P0146,PR050,3,Office Visit,Hypertension,103.99,0
+E01031,P0115,PR011,5,Outpatient,Hypertension,222.45,0
+E01032,P0007,PR080,10,Outpatient,Depression,234.88,0
+E01033,P0171,PR017,12,Inpatient,Hypertension,927.76,1
+E01034,P0510,PR070,11,Outpatient,Chronic Kidney Disease,444.15,0
+E01035,P0153,PR006,3,Outpatient,Hypertension,146.1,0
+E01036,P0573,PR071,7,Outpatient,Back Pain,285.14,0
+E01037,P0572,PR004,7,Outpatient,Diabetes,357.11,0
+E01038,P0410,PR055,4,Office Visit,Asthma,96.85,0
+E01039,P0589,PR029,6,Office Visit,Heart Failure,130.4,0
+E01040,P0245,PR037,5,Office Visit,Back Pain,134.35,0
+E01041,P0574,PR009,1,Office Visit,Back Pain,71.6,0
+E01042,P0327,PR055,5,Outpatient,Asthma,124.73,0
+E01043,P0049,PR050,5,Outpatient,Diabetes,289.11,0
+E01044,P0500,PR026,4,Emergency,COPD,615.93,0
+E01045,P0571,PR038,8,Outpatient,Depression,111.11,0
+E01046,P0532,PR045,9,Outpatient,Chronic Kidney Disease,3745.95,0
+E01047,P0251,PR056,1,Office Visit,Depression,69.02,0
+E01048,P0062,PR044,5,Office Visit,Asthma,640.35,0
+E01049,P0352,PR005,1,Outpatient,Hypertension,189.96,0
+E01050,P0521,PR044,10,Inpatient,Diabetes,1006.8,1
+E01051,P0505,PR028,12,Outpatient,Hypertension,346.17,0
+E01052,P0371,PR033,6,Inpatient,Chronic Kidney Disease,1897.42,0
+E01053,P0472,PR030,12,Outpatient,COPD,226.88,0
+E01054,P0020,PR029,8,Office Visit,Diabetes,1698.18,0
+E01055,P0375,PR019,11,Outpatient,Asthma,42.06,0
+E01056,P0066,PR027,12,Emergency,Diabetes,533.56,1
+E01057,P0450,PR057,8,Office Visit,Hypertension,251.87,0
+E01058,P0028,PR018,6,Emergency,COPD,2135.43,0
+E01059,P0357,PR061,9,Emergency,COPD,503.34,0
+E01060,P0570,PR036,3,Office Visit,Diabetes,3409.35,0
+E01061,P0068,PR049,4,Outpatient,Asthma,446.72,0
+E01062,P0256,PR010,7,Outpatient,Depression,28.49,0
+E01063,P0025,PR017,3,Inpatient,Chronic Kidney Disease,852.02,0
+E01064,P0430,PR073,6,Inpatient,Back Pain,1098.27,0
+E01065,P0556,PR067,11,Outpatient,Hypertension,86.64,0
+E01066,P0002,PR006,10,Outpatient,Diabetes,628.75,0
+E01067,P0328,PR073,11,Outpatient,Diabetes,282.16,0
+E01068,P0476,PR067,11,Outpatient,Asthma,93.49,0
+E01069,P0016,PR011,4,Outpatient,Diabetes,187.5,0
+E01070,P0290,PR020,9,Emergency,Back Pain,684.3,0
+E01071,P0078,PR015,5,Outpatient,Heart Failure,117.93,0
+E01072,P0555,PR069,12,Emergency,Asthma,898.62,0
+E01073,P0306,PR069,3,Inpatient,COPD,4292.9,0
+E01074,P0313,PR058,4,Outpatient,Asthma,186.7,0
+E01075,P0599,PR021,12,Office Visit,COPD,140.67,0
+E01076,P0474,PR074,3,Office Visit,Heart Failure,928.11,0
+E01077,P0189,PR068,8,Outpatient,Asthma,164.94,0
+E01078,P0378,PR070,4,Office Visit,Hypertension,64.38,0
+E01079,P0179,PR029,4,Office Visit,Depression,871.87,0
+E01080,P0313,PR057,9,Outpatient,Chronic Kidney Disease,319.88,0
+E01081,P0488,PR055,10,Emergency,Asthma,119.93,0
+E01082,P0569,PR013,3,Outpatient,Hypertension,271.75,0
+E01083,P0571,PR047,12,Outpatient,Diabetes,384.21,0
+E01084,P0298,PR044,2,Inpatient,Diabetes,5594.28,0
+E01085,P0538,PR047,2,Outpatient,Chronic Kidney Disease,478.69,0
+E01086,P0536,PR028,12,Outpatient,Diabetes,301.72,0
+E01087,P0328,PR054,1,Outpatient,Back Pain,282.88,0
+E01088,P0022,PR071,4,Outpatient,Back Pain,253.78,0
+E01089,P0072,PR049,2,Office Visit,Diabetes,487.6,0
+E01090,P0395,PR070,3,Office Visit,Asthma,302.54,0
+E01091,P0499,PR062,1,Outpatient,Hypertension,246.79,0
+E01092,P0547,PR026,5,Office Visit,Hypertension,155.04,0
+E01093,P0146,PR059,4,Outpatient,Hypertension,421.15,0
+E01094,P0540,PR054,2,Outpatient,Depression,141.94,0
+E01095,P0496,PR076,9,Inpatient,Depression,1513.06,0
+E01096,P0292,PR028,1,Emergency,Diabetes,1969.78,0
+E01097,P0225,PR014,6,Office Visit,Hypertension,125.82,0
+E01098,P0284,PR055,4,Outpatient,COPD,2961.91,0
+E01099,P0406,PR051,8,Office Visit,COPD,244.67,0
+E01100,P0487,PR050,5,Emergency,Diabetes,369.13,0
+E01101,P0103,PR060,6,Emergency,Depression,466.53,0
+E01102,P0202,PR041,10,Office Visit,Back Pain,308.0,0
+E01103,P0073,PR003,2,Office Visit,Hypertension,229.13,0
+E01104,P0563,PR071,6,Outpatient,Depression,364.28,0
+E01105,P0245,PR023,7,Outpatient,Chronic Kidney Disease,794.39,0
+E01106,P0151,PR020,9,Outpatient,Heart Failure,3105.88,0
+E01107,P0122,PR066,7,Outpatient,Asthma,233.24,0
+E01108,P0045,PR064,9,Outpatient,COPD,218.42,0
+E01109,P0283,PR041,10,Office Visit,Heart Failure,382.64,0
+E01110,P0464,PR056,10,Office Visit,Hypertension,315.42,0
+E01111,P0194,PR007,8,Office Visit,Chronic Kidney Disease,957.41,0
+E01112,P0243,PR023,12,Office Visit,Diabetes,478.5,0
+E01113,P0382,PR020,1,Outpatient,Hypertension,109.65,0
+E01114,P0214,PR034,6,Office Visit,COPD,1050.4,0
+E01115,P0444,PR029,10,Inpatient,Hypertension,4279.25,0
+E01116,P0193,PR006,2,Office Visit,Hypertension,221.46,0
+E01117,P0268,PR056,10,Emergency,Diabetes,2762.67,0
+E01118,P0589,PR048,1,Outpatient,Depression,378.54,0
+E01119,P0502,PR031,10,Office Visit,Heart Failure,3510.13,0
+E01120,P0344,PR072,3,Office Visit,Hypertension,315.76,0
+E01121,P0236,PR029,9,Office Visit,Depression,211.16,0
+E01122,P0596,PR010,10,Emergency,Depression,594.22,0
+E01123,P0278,PR068,10,Office Visit,Diabetes,286.75,0
+E01124,P0207,PR011,7,Emergency,Heart Failure,1318.37,0
+E01125,P0358,PR006,11,Emergency,Hypertension,1003.68,0
+E01126,P0249,PR038,2,Emergency,Heart Failure,1833.66,0
+E01127,P0534,PR047,3,Outpatient,Chronic Kidney Disease,633.15,0
+E01128,P0128,PR023,2,Outpatient,Diabetes,476.18,0
+E01129,P0031,PR068,9,Emergency,COPD,1269.21,0
+E01130,P0259,PR023,11,Office Visit,Hypertension,386.22,0
+E01131,P0569,PR078,12,Inpatient,Heart Failure,4553.24,1
+E01132,P0038,PR052,7,Outpatient,Diabetes,532.2,0
+E01133,P0485,PR015,2,Emergency,Asthma,201.34,0
+E01134,P0001,PR033,3,Emergency,Heart Failure,559.11,0
+E01135,P0335,PR007,8,Emergency,Hypertension,500.59,0
+E01136,P0272,PR068,11,Office Visit,Asthma,473.34,0
+E01137,P0096,PR052,12,Outpatient,Diabetes,711.24,0
+E01138,P0448,PR035,9,Office Visit,Heart Failure,346.64,0
+E01139,P0106,PR055,11,Office Visit,COPD,383.4,0
+E01140,P0263,PR050,6,Outpatient,Diabetes,158.55,0
+E01141,P0335,PR048,3,Outpatient,Hypertension,71.07,0
+E01142,P0311,PR032,6,Emergency,Diabetes,692.74,0
+E01143,P0020,PR029,2,Outpatient,Asthma,721.38,0
+E01144,P0268,PR021,9,Office Visit,Chronic Kidney Disease,702.97,0
+E01145,P0393,PR063,4,Office Visit,Diabetes,1866.79,0
+E01146,P0317,PR038,5,Inpatient,Diabetes,1494.08,0
+E01147,P0439,PR038,1,Office Visit,Depression,194.09,1
+E01148,P0466,PR058,12,Outpatient,Hypertension,97.91,0
+E01149,P0108,PR043,6,Outpatient,Hypertension,163.87,0
+E01150,P0483,PR077,10,Outpatient,Chronic Kidney Disease,250.51,0
+E01151,P0537,PR020,7,Outpatient,Diabetes,117.82,0
+E01152,P0503,PR004,8,Emergency,Back Pain,135.44,0
+E01153,P0511,PR034,6,Outpatient,Diabetes,434.28,0
+E01154,P0128,PR043,9,Outpatient,Depression,105.0,0
+E01155,P0392,PR066,3,Emergency,Hypertension,232.05,0
+E01156,P0275,PR051,12,Outpatient,Diabetes,563.05,0
+E01157,P0591,PR076,6,Outpatient,Hypertension,62.67,0
+E01158,P0499,PR007,1,Office Visit,Back Pain,230.83,0
+E01159,P0097,PR043,12,Outpatient,COPD,852.75,0
+E01160,P0566,PR067,1,Outpatient,Diabetes,856.72,0
+E01161,P0419,PR041,6,Inpatient,Back Pain,1373.61,0
+E01162,P0326,PR023,10,Emergency,Diabetes,622.49,0
+E01163,P0268,PR062,5,Emergency,Diabetes,394.05,0
+E01164,P0296,PR070,3,Office Visit,Diabetes,379.77,0
+E01165,P0463,PR021,3,Outpatient,Depression,710.59,0
+E01166,P0459,PR045,9,Emergency,Diabetes,807.48,0
+E01167,P0332,PR065,7,Office Visit,Diabetes,372.4,0
+E01168,P0596,PR013,7,Outpatient,Back Pain,339.61,0
+E01169,P0140,PR001,7,Outpatient,Heart Failure,619.08,0
+E01170,P0256,PR060,4,Office Visit,Hypertension,259.17,0
+E01171,P0360,PR061,12,Outpatient,Heart Failure,488.38,0
+E01172,P0100,PR013,3,Outpatient,Hypertension,155.23,0
+E01173,P0300,PR048,11,Outpatient,COPD,959.88,0
+E01174,P0501,PR058,10,Office Visit,Hypertension,45.45,0
+E01175,P0406,PR078,1,Outpatient,Heart Failure,872.48,0
+E01176,P0427,PR065,3,Office Visit,Asthma,166.21,0
+E01177,P0098,PR018,7,Outpatient,Hypertension,47.12,0
+E01178,P0088,PR047,2,Office Visit,Diabetes,186.01,0
+E01179,P0266,PR059,11,Outpatient,Hypertension,210.19,0
+E01180,P0195,PR022,6,Outpatient,Asthma,263.97,0
+E01181,P0007,PR014,11,Office Visit,Asthma,439.94,0
+E01182,P0332,PR035,2,Office Visit,Asthma,464.54,0
+E01183,P0453,PR058,1,Outpatient,Back Pain,62.77,0
+E01184,P0439,PR043,8,Office Visit,Depression,256.04,0
+E01185,P0062,PR049,10,Emergency,Back Pain,619.98,0
+E01186,P0469,PR054,12,Outpatient,Heart Failure,708.82,0
+E01187,P0229,PR077,10,Office Visit,Hypertension,323.37,0
+E01188,P0094,PR051,9,Office Visit,Heart Failure,126.78,0
+E01189,P0284,PR011,1,Emergency,Diabetes,293.92,0
+E01190,P0131,PR033,8,Office Visit,Diabetes,1209.91,0
+E01191,P0404,PR014,9,Inpatient,Hypertension,726.45,1
+E01192,P0447,PR061,5,Office Visit,Hypertension,1280.93,0
+E01193,P0436,PR080,12,Office Visit,Chronic Kidney Disease,233.39,1
+E01194,P0070,PR062,12,Outpatient,Hypertension,755.87,0
+E01195,P0210,PR020,11,Office Visit,Diabetes,248.86,0
+E01196,P0299,PR056,11,Outpatient,Back Pain,431.3,0
+E01197,P0591,PR002,7,Outpatient,Heart Failure,469.73,0
+E01198,P0328,PR022,10,Outpatient,Hypertension,237.32,0
+E01199,P0393,PR025,1,Office Visit,Hypertension,348.38,0
+E01200,P0204,PR038,3,Emergency,Diabetes,397.34,0
